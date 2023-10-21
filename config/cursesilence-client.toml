@@ -1,0 +1,7 @@
+
+#Mod Config Options
+[Client]
+	#How should the mod display curses?
+	#Allowed Values: FULL, HINT, LEVEL
+	curseType = "HINT"
+

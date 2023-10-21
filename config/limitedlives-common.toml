@@ -1,0 +1,12 @@
+
+#This category holds general values that will mostly be customized by most.
+["Starting Configurations"]
+	#This is how many lives you'll start out with in the world.
+	#Range: > 1
+	"Starting Lives:" = 10
+	#This is how many lives you'll lose every death.
+	#Range: > 1
+	"Amount of Lives Lost Per Death:" = 1
+	#This value determines whether you get banned or go into spectator mode when you lose all your lives.
+	"Banned Upon Dying:" = false
+

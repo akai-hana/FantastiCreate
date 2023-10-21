@@ -1,0 +1,6 @@
+{
+	// If you notice a fluid not rendering transparent try adding it's identifier here
+	"AdditionalTransparentFluids": [
+		"minecraft:flowing_lava"
+	]
+}

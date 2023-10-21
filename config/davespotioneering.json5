@@ -1,0 +1,18 @@
+{
+	"gauntlet_hud_x": -120,
+	"gauntlet_hud_y": -92,
+	"particle_drip_rate": 10,
+	"gauntlet_hud_preset": "ABOVE_HOTBAR",
+	"potion_stack_size": 16,
+	"splash_potion_stack_size": 4,
+	"lingering_potion_stack_size": 4,
+	"potion_use_cooldown": 30,
+	"potion_throw_cooldown": 30,
+	"gauntlet_cooldown": 30,
+	"coating_uses": 25,
+	"coat_tools": true,
+	"spike_food": true,
+	"show_spiked_food": true,
+	"coat_anything": false,
+	"milk": true
+}
