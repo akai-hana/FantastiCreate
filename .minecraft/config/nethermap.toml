@@ -1,5 +1,0 @@
-useMapCreationHeight = true
-
-[[dimensions]]
-dimension = "minecraft:nether"
-scanHeight = 40

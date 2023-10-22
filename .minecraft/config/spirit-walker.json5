@@ -1,9 +1,0 @@
-{
-	"enableDefaultRecipe": true,
-	"normalPotionLength": 15,
-	"strongPotionLength": 15,
-	"longPotionLength": 30,
-	"allowReturningImmediately": false,
-	"disableSplashAndLingering": true,
-	"listenFromBody": false
-}
