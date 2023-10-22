@@ -8,3 +8,5 @@ This is my vision of a perfect modded Minecraft. If you like vanilla Minecraft, 
 
 For anything related to the modpack, you can go to our (Discord server)[https://discord.gg/Aj84NyN9], or just directly message me (akai_hana).
 Ty to TheBestAstroNOT for all the help. This repo probably wouldn't exist without him.
+
+All Rights Reserved unless otherwise explicitly stated. If you want to gain explicit permission, ask me, "akai_hana" on Discord. We can talk over Discord, my DMs are open. 
