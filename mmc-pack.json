@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7db85bef1a1b03649bb0939f4338a525f53d8cdf2f12a59bdd5fe3724fd4256e
-size 1400
+{
+    "components": [
+        {
+            "cachedName": "LWJGL 3",
+            "cachedVersion": "3.3.2",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "org.lwjgl3",
+            "version": "3.3.2"
+        },
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "suggests": "3.3.1",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "cachedVersion": "1.19.2",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.19.2"
+        },
+        {
+            "cachedName": "Intermediary Mappings",
+            "cachedRequires": [
+                {
+                    "equals": "1.19.2",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "cachedVersion": "1.19.2",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "net.fabricmc.intermediary",
+            "version": "1.19.2"
+        },
+        {
+            "cachedName": "Fabric Loader",
+            "cachedRequires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "cachedVersion": "0.14.22",
+            "uid": "net.fabricmc.fabric-loader",
+            "version": "0.14.22"
+        }
+    ],
+    "formatVersion": 1
+}
