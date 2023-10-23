@@ -1,7 +1,0 @@
-{
-	// On spoiled craft, reset spoiling time
-	"freshCrafting": false,
-	"effectChance": 35,
-	// In ticks
-	"effectDuration": 400
-}
