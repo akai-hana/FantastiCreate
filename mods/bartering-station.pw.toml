@@ -1,0 +1,13 @@
+name = "Bartering Station [Forge & Fabric]"
+filename = "BarteringStation-v4.0.3-1.19.2-Fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b2ba49d3856988976784dc62702a8d18ef6e6710"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4067996
+project-id = 666940

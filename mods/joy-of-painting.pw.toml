@@ -1,0 +1,13 @@
+name = "Joy of Painting"
+filename = "xercapaint-fabric-1.19.2-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eb14e5209595e5fd2b206f2e610ccd40e708fd3d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4515433
+project-id = 350727

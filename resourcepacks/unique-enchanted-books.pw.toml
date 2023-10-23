@@ -1,0 +1,13 @@
+name = "Unique Enchanted Books"
+filename = "UniqueEnchantedBooks_v2.0.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f717dc3dacbc5a7a861390733df262e97ab65b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3995502
+project-id = 664338

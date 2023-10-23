@@ -1,0 +1,13 @@
+name = "Better Potion Visuals"
+filename = "betterpotionvisuals-1.19.x-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c67a94b960dac162f1ca4dc513d6e2ede84703ce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4417959
+project-id = 833084

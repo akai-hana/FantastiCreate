@@ -1,0 +1,13 @@
+{
+  "sendDawnMessage": true,
+  "dawnMessage": "The sun rises.",
+  "sendSleepingMessage": true,
+  "showTimeUntilDawn": true,
+  "sendNotEnoughPlayersSleepingMessage": true,
+  "sleepSpeedCurve": "LINEAR",
+  "sleepSpeedMultiplier": 25.0,
+  "blockEntityTickSpeedMultiplier": 25.0,
+  "chunkTickSpeedMultiplier": 25.0,
+  "raidTickSpeedMultiplier": 25.0,
+  "tickDelay": -1
+}

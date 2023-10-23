@@ -1,0 +1,7 @@
+name = "Pillage"
+filename = "takesapillage-1.0.3-1.19.2.jar"
+
+[download]
+url = "https://thebestastronot.github.io/FantastiCreateDev/takesapillage-1.0.3-1.19.2.jar"
+hash-format = "sha256"
+hash = "037201d1f353f679beb9c6c3bf2e5900dc6f596de52614ac3e3efe41898445a0"

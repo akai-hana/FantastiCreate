@@ -1,0 +1,13 @@
+name = "Boat Break Fix [Neo/Forge/Fabric/Quilt]"
+filename = "BoatBreakFix-Universal-1.0.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bccf0f07bcbbd57c995dec8d7b9712df5a42e45f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4105550
+project-id = 709585

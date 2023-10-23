@@ -1,0 +1,13 @@
+name = "Flaming"
+filename = "[FL]Flaming_fabric1.19.X_1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fRAVnRE7/versions/nEID4vwn/%5BFL%5DFlaming_fabric1.19.X_1.0.3.jar"
+hash-format = "sha1"
+hash = "42bc8f882a9fbf9ec94084a016db6f67bca7cdcd"
+
+[update]
+[update.modrinth]
+mod-id = "fRAVnRE7"
+version = "nEID4vwn"

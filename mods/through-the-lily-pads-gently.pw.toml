@@ -1,0 +1,13 @@
+name = "Through the lily pads, gently"
+filename = "through-the-lilypads-gently--mc1.19.2--1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b266bc0f2ba20c25908e930ad20f1ff1b8f7f84a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4771011
+project-id = 903017

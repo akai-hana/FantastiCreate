@@ -1,0 +1,13 @@
+name = "Nutritious Feast"
+filename = "Nutritious Feast 1.4.0 [Fabric].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "37d9353595f14d0d6d0f68ea61c040f3f05b70a5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4183582
+project-id = 716089

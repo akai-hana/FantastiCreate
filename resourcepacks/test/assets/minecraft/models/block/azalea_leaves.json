@@ -1,0 +1,7 @@
+{
+    "parent":"block/leaves_cross",
+    "textures": {
+        "all":"block/azalea_leaves",
+	    "bushy": "block/azalea_leaves_bushy"
+    }
+}

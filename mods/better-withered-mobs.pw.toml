@@ -1,0 +1,13 @@
+name = "Better Withered Mobs"
+filename = "better-withered-mobs-1.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "447d711a826f69b9c3a2c687c9923fa8686a4847"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3933483
+project-id = 335874

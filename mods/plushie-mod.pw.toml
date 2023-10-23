@@ -1,0 +1,13 @@
+name = "Plushie Mod"
+filename = "plushie-mod-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f5767cddd4dd0c37e25a3ba039869cbcf4cb642"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3827209
+project-id = 544197

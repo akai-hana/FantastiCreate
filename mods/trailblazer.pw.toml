@@ -1,0 +1,13 @@
+name = "Trailblazer"
+filename = "trailblazer-0.1.0+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a7e61b6fc708661d611565e1e43266acdfbd6f6f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3949439
+project-id = 621491

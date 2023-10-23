@@ -1,0 +1,13 @@
+name = "Extended Block Shapes 扩展方块形状"
+filename = "extshape-fabric-2.0.5-mc1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bde98fee4a3311cd9a91ec28092d0863a9d1b9d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4792714
+project-id = 514125

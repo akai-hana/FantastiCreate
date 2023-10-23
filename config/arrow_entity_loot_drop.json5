@@ -1,0 +1,6 @@
+{
+	// The chance an Arrow stored in an Entity will NOT drop. Range: 0-100
+	"arrowBreakingChance": 0,
+	// When this is true, Spectral + Tipped Arrows will drop. If false, they will drop as regular Arrows instead
+	"preserveNonDefaultArrows": true
+}

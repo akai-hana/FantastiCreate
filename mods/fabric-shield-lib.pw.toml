@@ -1,0 +1,13 @@
+name = "Fabric Shield Lib"
+filename = "FabricShieldLib-1.7.1-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a3d43b1e6545fade6900da6a1b575d5bb1adc7c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4769216
+project-id = 380649

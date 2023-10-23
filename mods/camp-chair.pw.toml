@@ -1,0 +1,13 @@
+name = "Camp Chair"
+filename = "campchair-fabric.1.19-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b91eee8cc74d728ff3eb44fddd1461632d14ad9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3835679
+project-id = 531744

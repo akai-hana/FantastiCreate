@@ -1,0 +1,13 @@
+name = "Windchimes"
+filename = "windchimes-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dbee2266355d3ae3f348efccbd9ecc1b2fa3a710"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3829369
+project-id = 477895

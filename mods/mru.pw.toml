@@ -1,0 +1,13 @@
+name = "M.R.U"
+filename = "mru-0.1.5+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c3d51a805d003922b62cd26b900319ad9c678fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4460743
+project-id = 669659

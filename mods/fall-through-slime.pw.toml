@@ -1,0 +1,13 @@
+name = "Fall Through Slime"
+filename = "fallthroughslime-1.19.2-3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae6064b0ce6e474cbd0d59ddd93b295df64a96de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4327555
+project-id = 344421

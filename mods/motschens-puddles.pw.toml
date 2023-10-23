@@ -1,0 +1,13 @@
+name = "Motschen's Puddles"
+filename = "puddles-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d06e68491b5c63eff7cce5592ad38537b2d0d9d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3837164
+project-id = 463169

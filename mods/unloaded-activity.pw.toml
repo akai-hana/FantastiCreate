@@ -1,0 +1,13 @@
+name = "Unloaded Activity"
+filename = "unloadedactivity-v0.5.0+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae5a4ed92365d55502fcf3a93374099ff1b90a8d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4767230
+project-id = 831523

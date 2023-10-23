@@ -1,0 +1,13 @@
+name = "Mining Utility"
+filename = "miningutility-1.2.6+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "72261114cf17b171b23da3b6c6e9d1e9e9a58763"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4073662
+project-id = 478230

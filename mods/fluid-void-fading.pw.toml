@@ -1,0 +1,13 @@
+name = "Fluid Void Fading"
+filename = "fluidvoidfading-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d352cbf8ff370c65696a56e6dfdc04cce44d561"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4531286
+project-id = 821771

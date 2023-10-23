@@ -1,0 +1,13 @@
+name = "Deepslate Instamine - Fabric/Forge"
+filename = "DeepslateInstamine_mc1.19.2-2.5_release-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "50910fc992507452a1eea13b8cea422af51e0357"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4597831
+project-id = 534489

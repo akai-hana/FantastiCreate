@@ -1,0 +1,13 @@
+name = "Elytra Aeronautics"
+filename = "ElytraAeronautics-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a47e53341892e06f07f0566540f93b46891395b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4059243
+project-id = 563820

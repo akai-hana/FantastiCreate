@@ -1,0 +1,13 @@
+name = "Gravel Processor"
+filename = "gravel-processor-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/I9mcbtzL/versions/kaaG8nzO/gravel-processor-1.jar"
+hash-format = "sha1"
+hash = "0cdefff7c1825e023c21a50f271d121517788a23"
+
+[update]
+[update.modrinth]
+mod-id = "I9mcbtzL"
+version = "kaaG8nzO"

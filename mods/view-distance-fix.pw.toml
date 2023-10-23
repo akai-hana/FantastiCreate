@@ -1,0 +1,13 @@
+name = "View Distance Fix"
+filename = "viewdistancefix-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4b4f46321cb818d3a2f33cb0b196d24a156ab8c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4025548
+project-id = 687795

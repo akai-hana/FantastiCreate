@@ -1,0 +1,13 @@
+name = "Compress It!"
+filename = "Compress-It-2.5.0-1.19.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/K44jnDZh/versions/LekpTO77/Compress-It-2.5.0-1.19.2-fabric.jar"
+hash-format = "sha1"
+hash = "6d9138ee58c84c2c8f7f36b5511442c5dd7d4a1c"
+
+[update]
+[update.modrinth]
+mod-id = "K44jnDZh"
+version = "LekpTO77"

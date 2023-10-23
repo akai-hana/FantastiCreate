@@ -1,0 +1,13 @@
+name = "StackDeobfuscator"
+filename = "StackDeobfuscatorFabric-1.4.1+03a1fe4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ce8451683de444dd598cc5bbe3a7a0fd586d342a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4701101
+project-id = 840896

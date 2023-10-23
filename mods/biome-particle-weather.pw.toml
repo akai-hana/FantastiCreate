@@ -1,0 +1,13 @@
+name = "Biome Particle Weather"
+filename = "BiomeParticleWeather-v4.0.5-1.19.2-Fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad08fe51ff7e3cb562974c5b16f1ef623bc6e1e2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4406547
+project-id = 575109

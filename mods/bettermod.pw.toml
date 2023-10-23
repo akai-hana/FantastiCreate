@@ -1,0 +1,13 @@
+name = "BetterMod"
+filename = "BetterMod-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m4lzPTZ2/versions/H5ZlMsMB/BetterMod-1.4.1.jar"
+hash-format = "sha1"
+hash = "c339c32b9b886b266dc7160877fa161633b35271"
+
+[update]
+[update.modrinth]
+mod-id = "m4lzPTZ2"
+version = "H5ZlMsMB"

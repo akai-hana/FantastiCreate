@@ -1,0 +1,19 @@
+{
+  "zombieToForgottenConvertLevelY": 26,
+  "skeletonToUndeadWarriorConvertLevelY": 26,
+  "spiderToBlackSpiderConvertLevelY": 26,
+  "creeperToCaveCreeperConvertLevelY": 26,
+  "witherSkeletonConvertChance": 11,
+  "ghastConvertChance": 26,
+  "piglinConvertChance": 29,
+  "piglinBruteConvertChance": 39,
+  "skeletonToSoulStealerConvertChance": 31,
+  "zombieToExplorerConvertChance": 75,
+  "zombieToFrozenZombieConvertChance": 80,
+  "spiderToTropicalSpiderConvertChance": 75,
+  "undeadWarriorSpawnWithBowChance": 50,
+  "undeadWarriorsWeaknessDuration": 300,
+  "nightmareShootSingleFireballChance": 50,
+  "soulStealersBaseMagicDamage": 1.0,
+  "corsairSpawnWithSwordChance": 42
+}

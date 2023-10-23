@@ -1,0 +1,13 @@
+name = "More Bows: Restrung!"
+filename = "MoreBows-1.0.10+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfc4f07ff365dc5ff00ea7669539c9f059fa6f77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4450724
+project-id = 466902

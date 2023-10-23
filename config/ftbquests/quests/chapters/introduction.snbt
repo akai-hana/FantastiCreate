@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	id: "4DD319D4F149B640"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to FantastiCreate!"
+			""
+			"I, the quest book, will guide you through all that this modpack has to offer, from tips and tricks to survive, to rewarded quests to provide a questline for the most interesting mods."
+			""
+			"To celebrate it, have a beer! (or some aloe vera juice, if you're underage.)"
+		]
+		id: "4A705CD78B0CDA6F"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "3C1F90A70C70B103"
+			table_id: 1537983043917597454L
+			type: "choice"
+		}]
+		tasks: [{
+			id: "02A792E9013FC925"
+			title: "Welcome to FantastiCreate!"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -3.0d
+	}]
+	title: "Introduction"
+}

@@ -1,0 +1,21 @@
+{
+  "useAlpha": false,
+  "minAlpha": 1.0,
+  "maxAlpha": 1.0,
+  "useScale": false,
+  "minScale": 0.75,
+  "maxScale": 0.75,
+  "useMovement": false,
+  "VelocityMultiplier": 0.6,
+  "UpwardsAccel": 0.6,
+  "useColor": true,
+  "BlendColors": false,
+  "Color1": "#ffffff",
+  "Color2": "#000000",
+  "useAge": false,
+  "minAge": 60,
+  "maxAge": 72,
+  "Multiplier": 1.0,
+  "showOwnParticles": true,
+  "Particles": "TOTEM_OF_UNDYING"
+}

@@ -1,0 +1,13 @@
+name = "Mendable Anvils (Fabric)"
+filename = "MendableAnvils-fabric-1.19-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "29489c37364db9fab1986c9764225cc9d30b4cb9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3891330
+project-id = 648497

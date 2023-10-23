@@ -1,0 +1,13 @@
+name = "HitBoxPlus"
+filename = "hitboxplus-1.19.2-0.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "709525b9636ec1d81970b649a96f87b24ea0441b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4089288
+project-id = 690221

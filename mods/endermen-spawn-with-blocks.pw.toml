@@ -1,0 +1,13 @@
+name = "Endermen Spawn with Blocks"
+filename = "EndermenSpawnWithBlocks - v1.0-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76dc13c23eaaec730918d1e54c062bc4a285ffef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4715668
+project-id = 905187

@@ -1,0 +1,15 @@
+#Hides the enchantment glint on potions to make the potion effect color visible more easily.
+remove_potion_glint = true
+#Shows a bar similar to the item durability bar on potion items indicating the total amount of effect amplifier levels on the potion.
+effect_amplifier_bar = true
+#Draw the item stack count above the effect amplifier bar. Otherwise the bar is drawn last and may cover parts of the stack count.
+draw_amplifier_bar_behind_stack_count = true
+#Indicate strong and long potions directly in the item's name.
+extended_potion_names = true
+#Give simple potions with an effect (awkward, mundane and thick) a unique effect color to set apart from water bottles.
+colored_simple_potions = true
+#The corks of strong and long potions will have a unique color.
+colored_potion_bottle_cork = true
+#Apply all changes to tipped arrows, too.
+apply_to_tipped_arrows = true
+

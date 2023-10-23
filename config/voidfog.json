@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "scaleWithDifficulty": true,
+  "disableInCreative": true,
+  "respectTorches": true,
+  "prettyFog": false,
+  "voidParticleDensity": 1000,
+  "maxFogHeight": 32,
+  "fadeStartOffset": 15.0,
+  "imABigBoi": false
+}

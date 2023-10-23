@@ -1,0 +1,13 @@
+name = "More Slabs, Stairs, and Walls"
+filename = "mssw-fabric-2.4.0+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dba8c3a488f2583d7099e9fd2b98c19309d4f6d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4455641
+project-id = 644005

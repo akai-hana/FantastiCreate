@@ -1,0 +1,13 @@
+name = "QuickBench"
+filename = "quickbench-4.0.1+mc.1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1d99923a98c513d620c18f64ef81f17e3d829ccc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4767794
+project-id = 914551

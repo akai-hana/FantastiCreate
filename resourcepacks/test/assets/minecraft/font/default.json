@@ -1,0 +1,139 @@
+{
+    "providers": [
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/attributes.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC00\uDB80\uDC01\uDB80\uDC02\uDB80\uDC03\uDB80\uDC04"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/discs.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC05\uDB80\uDC06\uDB80\uDC07\uDB80\uDC08\uDB80\uDC09\uDB80\uDC0A\uDB80\uDC0B\uDB80\uDC0C\uDB80\uDC0D\uDB80\uDC0E\uDB80\uDC0F\uDB80\uDC10\uDB80\uDC11\uDB80\uDC12\uDB80\uDC13\uDB80\uDC14\uDB80\uDC15"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/effects.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC16\uDB80\uDC17\uDB80\uDC18\uDB80\uDC19\uDB80\uDC1A\uDB80\uDC1B\uDB80\uDC1C\uDB80\uDC1D\uDB80\uDC1E\uDB80\uDC1F\uDB80\uDC20\uDB80\uDC21\uDB80\uDC22\uDB80\uDC23\uDB80\uDC24\uDB80\uDC25\uDB80\uDC26\uDB80\uDC27\uDB80\uDC28\uDB80\uDC29\uDB80\uDC2A\uDB80\uDC2B\uDB80\uDC2C\uDB80\uDC2D\uDB80\uDC2E\uDB80\uDC2F\uDB80\uDC30\uDB80\uDC31\uDB80\uDC32\uDB80\uDC33\uDB80\uDC34\uDB80\uDC35\uDB80\uDC36"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/enchanting_table_anvil.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC37\uDB80\uDC38\uDB80\uDC39\uDB80\uDC3A"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/enchantments.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC3B\uDB80\uDC3C\uDB80\uDC3D\uDB80\uDC3E\uDB80\uDC3F\uDB80\uDC40\uDB80\uDC41\uDB80\uDC42\uDB80\uDC43\uDB80\uDC44\uDB80\uDC45\uDB80\uDC46\uDB80\uDC47\uDB80\uDC48\uDB80\uDC49"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/gamemode.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC4A\uDB80\uDC4B\uDB80\uDC4C\uDB80\uDC4D\uDB80\uDC4E"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/hungry.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC4F\uDB80\uDC50"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/sleep.png",
+			"ascent": 15,
+			"height": 19,
+			"chars": [
+				"\uDB80\uDC51"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/settings.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"\uDB80\uDC52\uDB80\uDC53\uDB80\uDC54\uDB80\uDC55"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/pattern.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDC56\uDB80\uDC57\uDB80\uDC58\uDB80\uDC59\uDB80\uDC5A\uDB80\uDC5B"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/skin.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": [
+				"\uDB80\uDC5C\uDB80\uDC5D\uDB80\uDC5E\uDB80\uDC5F\uDB80\uDC60\uDB80\uDC61\uDB80\uDC62\uDB80\uDC63\uDB80\uDC64\uDB80\uDC65\uDB80\uDC66"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/mobs.png",
+			"ascent": 36,
+			"height": 36,
+			"chars": [
+				"\uDB80\uDC67\uDB80\uDC68\uDB80\uDC69\uDB80\uDC6A\uDB80\uDC6B\uDB80\uDC6C\uDB80\uDC6D\uDB80\uDC6E\uDB80\uDC6F\uDB80\uDC70\uDB80\uDC71\uDB80\uDC72\uDB80\uDC73\uDB80\uDC74\uDB80\uDC75\uDB80\uDC76\uDB80\uDC77\uDB80\uDC78\uDB80\uDC79\uDB80\uDC7A\uDB80\uDC7B\uDB80\uDC7C\uDB80\uDC7D\uDB80\uDC7E\uDB80\uDC7F\uDB80\uDC80\uDB80\uDC81\uDB80\uDC82\uDB80\uDC83\uDB80\uDC84\uDB80\uDC85\uDB80\uDC86\uDB80\uDC87\uDB80\uDC88\uDB80\uDC89\uDB80\uDC8A\uDB80\uDC8B\uDB80\uDC8C\uDB80\uDC8D\uDB80\uDC8E\uDB80\uDC8F\uDB80\uDC90\uDB80\uDC91\uDB80\uDC92\uDB80\uDC93\uDB80\uDC94\uDB80\uDC95\uDB80\uDC96\uDB80\uDC97\uDB80\uDC98\uDB80\uDC99\uDB80\uDCA0\uDB80\uDCA1\uDB80\uDCA2\uDB80\uDCA3\uDB80\uDCA4\uDB80\uDCA5\uDB80\uDCA6\uDB80\uDCA7\uDB80\uDCA8\uDB80\uDCA9\uDB80\uDCAA\uDB80\uDCAB\uDB80\uDCAC\uDB80\uDCAD\uDB80\uDCAE\uDB80\uDCAF\uDB80\uDCB0\uDB80\uDCB1\uDB80\uDCB2\uDB80\uDCB3\uDB80\uDCB4\uDB80\uDCB5\uDB80\uDCB6"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/fish_predefined.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDCB7\uDB80\uDCB8\uDB80\uDCB9\uDB80\uDCBA\uDB80\uDCBB\uDB80\uDCBC\uDB80\uDCBD\uDB80\uDCBE\uDB80\uDCBF\uDB80\uDCC0\uDB80\uDCC1\uDB80\uDCC2\uDB80\uDCC3\uDB80\uDCC4\uDB80\uDCC5\uDB80\uDCC6\uDB80\uDCC7\uDB80\uDCC8\uDB80\uDCC9\uDB80\uDCCA\uDB80\uDCCB\uDB80\uDCCC"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/fish_predefined.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uDB80\uDCCD\uDB80\uDCCE\uDB80\uDCCF\uDB80\uDCD0\uDB80\uDCD1\uDB80\uDCD2\uDB80\uDCD3\uDB80\uDCD4\uDB80\uDCD5\uDB80\uDCD6\uDB80\uDCD7\uDB80\uDCD8"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "minecraft:gui/icons/mobs2.png",
+			"ascent": 9,
+			"height": 10,
+			"chars": [
+				"\uDB80\uDCD9\uDB80\uDCDA\uDB80\uDCDB\uDB80\uDCDC\uDB80\uDCDD\uDB80\uDCDE"
+			]
+		}
+    ]
+}

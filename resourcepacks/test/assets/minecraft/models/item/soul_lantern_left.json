@@ -1,0 +1,15 @@
+{
+    "parent": "item/soul_lantern",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 2, 15, 0],
+            "scale": [ 0.7, 0.7, 0.7 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -5, -55, 0 ],
+            "translation": [ 10, -1, -10 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        }
+	}
+}

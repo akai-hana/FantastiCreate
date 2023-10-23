@@ -1,0 +1,13 @@
+name = "BetterF5"
+filename = "BetterF5-0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6cb1443ab1d50b46995259dbc36d8170c3b41922"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4383246
+project-id = 822747

@@ -1,0 +1,13 @@
+name = "Block Limit Fix"
+filename = "block_limit_fix-1.0.5-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d8f3d3e8806119d31cfa28ca4d6fd76c0b3eae85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4783500
+project-id = 757020

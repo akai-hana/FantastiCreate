@@ -1,0 +1,13 @@
+name = "Enchanting Table Descriptions"
+filename = "enchanting_table_descriptions-0.1.0+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5a91e06be43919cc77eadb58700b52fb06000e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4378880
+project-id = 821571

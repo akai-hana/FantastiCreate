@@ -1,0 +1,13 @@
+name = "Crafting Bench"
+filename = "crafting-bench-0.4-BETA+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4c9870f4dcd5dc99e44fe6ff535a501dd25197c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3961125
+project-id = 663853

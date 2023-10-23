@@ -1,0 +1,13 @@
+name = "Statement Library"
+filename = "Statement-4.2.8+1.14.4-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e38833d30b3b2af2b26e7e82eb85ab181a96975f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4692628
+project-id = 340604

@@ -1,0 +1,13 @@
+name = "Hoe Tweaks"
+filename = "hoetweaks-1.19.2-3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b9c5541cbe19127403de3a38f18685485cc51373"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4422883
+project-id = 523830

@@ -1,0 +1,13 @@
+name = "Void Totem (Fabric)"
+filename = "voidtotem-fabric-1.19.2-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4afb5ef05e45d7970bfd2a5605df7b16578ead21"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3929814
+project-id = 456137

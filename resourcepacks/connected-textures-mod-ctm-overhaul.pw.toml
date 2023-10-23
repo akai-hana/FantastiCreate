@@ -1,0 +1,13 @@
+name = "Connected Textures (CTM) Overhaul"
+filename = "CTM_Overhaul_V4.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b879b9a09b5cf31e56142291bbf15013ee8b8875"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3953474
+project-id = 442365

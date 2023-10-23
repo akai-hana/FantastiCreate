@@ -1,0 +1,13 @@
+name = "End Remastered [Fabric]"
+filename = "fabric-end-remastered-5.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6370b6b04f707de8123652a93795e30cbf9b41c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4028924
+project-id = 515523

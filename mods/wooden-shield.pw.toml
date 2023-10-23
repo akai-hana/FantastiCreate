@@ -1,0 +1,13 @@
+name = "Wooden Shield"
+filename = "wooden_shield-0.0.3-1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/93Ohla4d/versions/bY3dDMVZ/wooden_shield-0.0.3-1.19.jar"
+hash-format = "sha1"
+hash = "ae50f8f309cae42bd129c261cc6a1be8cb754218"
+
+[update]
+[update.modrinth]
+mod-id = "93Ohla4d"
+version = "bY3dDMVZ"

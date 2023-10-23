@@ -1,0 +1,13 @@
+name = "TenshiLib (Fabric)"
+filename = "tenshilib-1.19.2-1.6.15-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c053e59a99d6a819b6ab61905466948fc199bec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4396884
+project-id = 552662

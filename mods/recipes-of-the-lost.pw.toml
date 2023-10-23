@@ -1,0 +1,13 @@
+name = "Recipes of the Lost"
+filename = "uncraftable-3.2-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "923e68575aab0307aebc3f132db71165ba896b95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4504011
+project-id = 850459

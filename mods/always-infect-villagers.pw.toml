@@ -1,0 +1,13 @@
+name = "Always Infect Villagers"
+filename = "always_infect-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d77f20e151fd9c064b8e8823e8843ebcbc49888a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4679474
+project-id = 897600

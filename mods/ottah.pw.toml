@@ -1,0 +1,13 @@
+name = "OttahMod"
+filename = "ottah-A1-pre_4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/891G4kho/versions/rIjt6yYK/ottah-A1-pre_4.jar"
+hash-format = "sha1"
+hash = "efbef21b8d013a90774204ba0f3ec267cf3f386b"
+
+[update]
+[update.modrinth]
+mod-id = "891G4kho"
+version = "rIjt6yYK"

@@ -1,0 +1,13 @@
+name = "Stenographer"
+filename = "stenographer-1.19-1.0.1-patch2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cu290YRp/versions/3n395DOP/stenographer-1.19-1.0.1-patch2.jar"
+hash-format = "sha1"
+hash = "9f14690f239051a786cb26be0b2f6c313b68d32f"
+
+[update]
+[update.modrinth]
+mod-id = "cu290YRp"
+version = "3n395DOP"

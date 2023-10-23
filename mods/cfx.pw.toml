@@ -1,0 +1,13 @@
+name = "CFX"
+filename = "CFX-1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ef028b17c529e932e5ced1d0db8acc4c763ac6a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4767898
+project-id = 898661

@@ -1,0 +1,13 @@
+name = "Just an End Anchor"
+filename = "just-end-anchor-1.0.2-1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ed0c467affe9385bfc8414a1a4433f90c41d540"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3852804
+project-id = 525574

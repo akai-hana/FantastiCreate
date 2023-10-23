@@ -1,0 +1,13 @@
+name = "Too many apple's"
+filename = "too_many_apple's.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OBoTimD3/versions/ps8xne3X/too_many_apple%27s.jar"
+hash-format = "sha1"
+hash = "cab0972ac4ba3f03e658000dc9e4d84fc2ed365b"
+
+[update]
+[update.modrinth]
+mod-id = "OBoTimD3"
+version = "ps8xne3X"

@@ -1,0 +1,13 @@
+name = "Voice Chat Interaction"
+filename = "vcinteraction-1.19.2-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86f74011e6aca35d364eaabc60390d968488ce8d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4111341
+project-id = 687977

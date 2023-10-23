@@ -1,0 +1,13 @@
+name = "Wanderer's Catalogue 📘"
+filename = "wanderers-catalogue-1.0.2+1.19.x.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fbe164f151c453538e13d08850930ea6b14b8c38"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3943994
+project-id = 657194

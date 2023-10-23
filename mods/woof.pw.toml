@@ -1,0 +1,13 @@
+name = "Wolves Of Other Furs"
+filename = "woof-4.0.1-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f56b65a3e47d5d403323ebb0019ee62e720f4976"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4484634
+project-id = 653216

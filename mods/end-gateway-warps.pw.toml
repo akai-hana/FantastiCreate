@@ -1,0 +1,13 @@
+name = "End Gateway Warps"
+filename = "end-gateway-warps-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YcKbVjZG/versions/GjpoMGo8/end-gateway-warps-1.2.1.jar"
+hash-format = "sha1"
+hash = "125beec09a179e3bbe4c0f1e54e61c61a2744b9c"
+
+[update]
+[update.modrinth]
+mod-id = "YcKbVjZG"
+version = "GjpoMGo8"

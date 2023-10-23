@@ -1,0 +1,13 @@
+name = "Lightest Lamps (Fabric/Quilt)"
+filename = "lightest-lamps-fabric-3.0.0f.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "40fc9ff6c5d9836749083751db87f78b61b25b47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3965300
+project-id = 533661

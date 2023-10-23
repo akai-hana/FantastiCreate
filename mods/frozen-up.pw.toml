@@ -1,0 +1,13 @@
+name = "Frozen Up"
+filename = "frozenup-2.1.0-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9bfe4b89c7b1418c1e0ad6dae160614eac67b411"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4139740
+project-id = 430652

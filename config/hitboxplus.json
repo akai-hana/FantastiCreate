@@ -1,0 +1,99 @@
+{
+  "isModEnabled": true,
+  "color": 16777215,
+  "alpha": 10,
+  "middleClick": "CYCLE",
+  "isPlayerConfigEnabled": false,
+  "friend": {
+    "list": [],
+    "color": 2162432,
+    "alpha": 10
+  },
+  "enemy": {
+    "list": [],
+    "color": 13893632,
+    "alpha": 10
+  },
+  "neutral": {
+    "color": 16777215,
+    "alpha": 10
+  },
+  "self": {
+    "color": 16777215,
+    "alpha": 10
+  },
+  "passive": {
+    "isEnabled": false,
+    "color": 16777215,
+    "alpha": 10
+  },
+  "hostile": {
+    "isEnabled": false,
+    "color": 16777215,
+    "alpha": 10
+  },
+  "decoration": {
+    "isEnabled": false,
+    "color": 16777215,
+    "alpha": 10
+  },
+  "projectile": {
+    "isEnabled": false,
+    "color": 16777215,
+    "alpha": 10,
+    "renderStuck": false
+  },
+  "vehicle": {
+    "isEnabled": false,
+    "color": 16777215,
+    "alpha": 10
+  },
+  "enderDragon": {
+    "isEnabled": true,
+    "realHitbox": true,
+    "boxHitbox": false,
+    "color": 16777215,
+    "alpha": 10,
+    "partColor": 16777215,
+    "partAlpha": 10
+  },
+  "misc": {
+    "isEnabled": false,
+    "areaEffectCloud": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "experienceOrb": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "eyeOfEnder": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "fallingBlock": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "item": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "tnt": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "endCrystalEntity": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "enderPearlEntity": {
+      "color": 16777215,
+      "alpha": 10
+    },
+    "tridentEntity": {
+      "color": 16777215,
+      "alpha": 10
+    }
+  }
+}

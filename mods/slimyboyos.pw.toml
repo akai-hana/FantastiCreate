@@ -1,0 +1,13 @@
+name = "SlimyBoyos"
+filename = "SlimyBoyos-fabric-1.19.2-5.0.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6564fa2d35e8c957516f3631d883866f4c67c224"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4019894
+project-id = 281993

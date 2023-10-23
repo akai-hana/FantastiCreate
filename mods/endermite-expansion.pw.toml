@@ -1,0 +1,13 @@
+name = "Endermite Expansion"
+filename = "endermite-expansion-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/atcEyXIQ/versions/WnV0RGlU/endermite-expansion-1.0.0.jar"
+hash-format = "sha1"
+hash = "abe88c9530e09eea4999b67e62db3e64275f5eec"
+
+[update]
+[update.modrinth]
+mod-id = "atcEyXIQ"
+version = "WnV0RGlU"

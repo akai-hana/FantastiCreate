@@ -1,0 +1,13 @@
+name = "Hybrid Aquatic"
+filename = "hybrid-aquatic-1.0.1-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f707cb605ff130bff5ef0e8c31b8ed88fa7daccb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4731326
+project-id = 834427

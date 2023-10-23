@@ -1,0 +1,13 @@
+name = "Species"
+filename = "species-1.1-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e8103d3582632db5a81f1db1aac1a7482c9cb35"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4540280
+project-id = 857737

@@ -1,0 +1,13 @@
+name = "Maps of the Unknown"
+filename = "bettermaps-mc1.19-0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JX1fvBwM/versions/6yqz1sn0/bettermaps-mc1.19-0.4.jar"
+hash-format = "sha1"
+hash = "e1f75578479e0f5f78e72749ab59dd8c5698a092"
+
+[update]
+[update.modrinth]
+mod-id = "JX1fvBwM"
+version = "6yqz1sn0"

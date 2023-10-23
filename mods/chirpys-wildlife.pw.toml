@@ -1,0 +1,13 @@
+name = "Chirpy's Wildlife"
+filename = "wildlife-1.19.2-2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20567a0c79c61699161306a74adacdc426c58982"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4532024
+project-id = 568457

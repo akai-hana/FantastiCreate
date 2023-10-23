@@ -1,0 +1,7 @@
+{
+	"parent": "block/daylight_detector_template",
+	"textures": {
+		"particle": "block/daylight_detector_top",
+		"top": "block/daylight_detector_top"
+	}
+}

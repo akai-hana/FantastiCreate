@@ -1,0 +1,13 @@
+name = "Eden Ring"
+filename = "eden-ring-0.6.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aeaf64c7357039b84911760d68fb56c81f488513"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3946862
+project-id = 546590

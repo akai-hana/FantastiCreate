@@ -1,0 +1,261 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = wallpapers
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 9
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 107
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 57
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 68
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=628394%
+  orientation = mid-centered
+  x = 96
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=628394%
+  width = 20
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 104
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -39
+  action = movebutton
+  y = 34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 89
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 59
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 57
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -45
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -74
+  action = movebutton
+  y = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = a6050aa6-9a99-4e43-8971-93a509a674c21696787531488
+  y = 348
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 414
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 08afea6d-897b-4e0c-8167-d03bf63178f61696787531496
+  y = 187
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 174
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 573502b8-6dc2-483a-a48b-eca872243faa1696787531496
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 190
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = a60f9126-2daf-44da-bf13-b63b44b1f0fc1696787531496
+  y = -39
+  height = 30
+}
+
+customization {
+  path = fantasticreate-v5.0-title.png
+  orientation = mid-centered
+  x = -205
+  width = 421
+  action = addtexture
+  actionid = 0df402fe-f5de-412d-8968-d486055d1b7a1696787644892
+  y = -133
+  height = 134
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = *made w love by akai <3*
+  text_border = 3
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 514
+  width = 127
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 19a4ce17-33a8-496e-9ccc-aeaac85d63bc1697661859221
+  y = 334
+  alignment = left
+  base_color = #af0003
+  height = 17
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = many thanks to astro for the constant help :)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 407
+  width = 233
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b2348082-816f-4ec9-8968-d527ae7d0a2a1697661926337
+  y = 349
+  alignment = left
+  height = 12
+}
+

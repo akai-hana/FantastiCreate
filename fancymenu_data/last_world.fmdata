@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/sharm/AppData/Roaming/PrismLauncher/instances/FantastiCreate/.minecraft/saves/New World
+}
+

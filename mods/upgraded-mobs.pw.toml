@@ -1,0 +1,13 @@
+name = "Upgraded Mobs"
+filename = "upgraded-mobs-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iaFWBDP2/versions/cslakmgp/upgraded-mobs-1.3.0.jar"
+hash-format = "sha1"
+hash = "f7a4f7f461b3494b500f8fa2e6d2be665d8e0a3e"
+
+[update]
+[update.modrinth]
+mod-id = "iaFWBDP2"
+version = "cslakmgp"

@@ -1,0 +1,103 @@
+{
+    "parent": "block/cactus",
+    "textures": {
+        "particle": "block/cactus_side",
+        "arm": "block/cactus_arm"
+    },
+    "elements": [
+        {
+            "from": [-5,2,5],
+            "to": [1,8,11],
+            "faces": {
+                "up": {
+                    "uv": [8,2,14,8],
+                    "texture": "#arm",
+                    "rotation": 90
+                },
+                "down": {
+                    "uv": [8,2,14,8],
+                    "texture": "#arm",
+                    "rotation": 90
+                },
+                "north": {
+                    "uv": [8,2,14,8],
+                    "texture": "#arm",
+                    "rotation": 90
+                },
+                "south": {
+                    "uv": [8,2,14,8],
+                    "texture": "#arm",
+                    "rotation": 90
+                }
+            }
+        },
+        {
+            "from": [-11,2,4],
+            "to": [-11,17,12],
+            "faces": {
+                "west": {
+                    "uv": [7,1,15,16],
+                    "texture": "#arm"
+                },
+                "north": {
+                    "uv": [1,0,15,12],
+                    "texture": "#arm"
+                }
+            }
+        },
+        {
+            "from": [-12,2,11.001],
+            "to": [-4,17,11.001],
+            "faces": {
+                "south": {
+                    "uv": [7,1,15,16],
+                    "texture": "#arm"
+                }
+            }
+        },
+        {
+            "from": [-11,2,5],
+            "to": [-5,2,11],
+            "faces": {
+                "down": {
+                    "uv": [0,0,6,6],
+                    "texture": "#arm"
+                }
+            }
+        },
+        {
+            "from": [-5,2,4],
+            "to": [-5,17,12],
+            "faces": {
+                "east": {
+                    "uv": [7,1,15,16],
+                    "texture": "#arm"
+                },
+                "north": {
+                    "uv": [1,0,15,12],
+                    "texture": "#side"
+                }
+            }
+        },
+        {
+            "from": [-12,2,4.999],
+            "to": [-4,17,4.999],
+            "faces": {
+                "north": {
+                    "uv": [7,1,15,16],
+                    "texture": "#arm"
+                }
+            }
+        },
+        {
+            "from": [-11,17,5],
+            "to": [-5,17,11],
+            "faces": {
+                "up": {
+                    "uv": [0,0,6,6],
+                    "texture": "#arm"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+name = "No More Underwater Dismount"
+filename = "NoMoreUnderwaterDismount-1.19.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e9262c43f60223afed94e0e10db44321ca049624"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4112174
+project-id = 702585

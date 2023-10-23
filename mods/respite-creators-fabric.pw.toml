@@ -1,0 +1,13 @@
+name = "Respite Creators [Fabric] (Create and Farmer's Respite Addon)"
+filename = "respite-creators-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21665fecf9ec49d1d7b4ce5c19bc31860f2f31ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4703338
+project-id = 901711

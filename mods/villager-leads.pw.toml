@@ -1,0 +1,13 @@
+name = "Villager Leads"
+filename = "villagerleads-0.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IgUtzXOQ/versions/AYHVwB8W/villagerleads-0.0.2.jar"
+hash-format = "sha1"
+hash = "347a457c06ee4e09af3a00aacd3ddc995005cff0"
+
+[update]
+[update.modrinth]
+mod-id = "IgUtzXOQ"
+version = "AYHVwB8W"

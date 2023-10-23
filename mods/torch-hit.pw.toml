@@ -1,0 +1,13 @@
+name = "Torch hit!"
+filename = "torchhit-1.19.2-6.0.1.2-final-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "32c876cc44a991ff2997b65c9dd6d895764becae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4445738
+project-id = 629434

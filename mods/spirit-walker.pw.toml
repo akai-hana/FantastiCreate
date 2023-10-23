@@ -1,0 +1,13 @@
+name = "Spirit Walker"
+filename = "spirit-walker-0.1.1+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc27ecad163d061b342bae4b1e6b3eb8aeb5d032"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4181219
+project-id = 730880

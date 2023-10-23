@@ -1,0 +1,13 @@
+name = "CreateFabric&REIBugFix"
+filename = "CreateFabricREIBugFix-0.1.5-create0.5.1-mc1.19.x.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "618d9c38225a1742449672e5d170e89e27d6846f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4631368
+project-id = 846935

@@ -1,0 +1,13 @@
+name = "Carpet Minitweaks"
+filename = "minitweaks-1.19.2-1.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b9962f66c29e397f07b21e0db2c671619ced3c84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4171540
+project-id = 735546

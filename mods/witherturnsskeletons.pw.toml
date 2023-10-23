@@ -1,0 +1,13 @@
+name = "WitherTurnsSkeletons"
+filename = "WitherTurnsSkeletons-1.2.0-1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e43a62a156d965ed2602dc1d3b519cc20d01487c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3928085
+project-id = 507731

@@ -1,0 +1,24 @@
+{
+  "hammock": {
+    "animation": true,
+    "oscillation_frequency": 0.25,
+    "max_angle": 100.0,
+    "min_angle": 5.0,
+    "damping": 0.2,
+    "swing_force": 0.008,
+    "camera_roll_intensity": 1.0,
+    "hammock_fall": true
+  },
+  "dream_essence": {
+    "particle_alpha": 0.1,
+    "particle_lifetime": 380,
+    "particle_spawn_chance": 0.15,
+    "24h_time_format": true
+  },
+  "misc": {
+    "show_insomnia_timer": true,
+    "crossair_insomnia_cooldown": true,
+    "show_time_when_sleeping": true,
+    "sleep_immediately": true
+  }
+}

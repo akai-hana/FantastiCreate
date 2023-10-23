@@ -1,0 +1,13 @@
+name = "CERBON's Better Totem of Undying [FABRIC]"
+filename = "BetterTotemOfUndying-Fabric-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "372db3bac909ff239be515c1819870776b4db0e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4639494
+project-id = 887366

@@ -1,0 +1,13 @@
+name = "Patbox's Brewery"
+filename = "brewery-0.2.3+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e420fb516d967518809494ef8a8b388cfc578b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4074498
+project-id = 681703

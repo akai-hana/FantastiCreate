@@ -1,0 +1,13 @@
+name = "Sign Copy"
+filename = "sign-copy-1.0.1+mc1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1bc0aaaf4bbeee76890b01797fbc8f9aba0292a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4548631
+project-id = 833352

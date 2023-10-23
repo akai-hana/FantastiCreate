@@ -1,0 +1,13 @@
+name = "QuickPlant [Fabric]"
+filename = "QuickPlant-Fabric-1.19.X-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa9456cb2fceaa282585248fb02e072a57c75076"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3912139
+project-id = 610968

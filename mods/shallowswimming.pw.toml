@@ -1,0 +1,13 @@
+name = "Shallow Swimming"
+filename = "shallowswimming-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f4c229aa37c55c165201d439bd1185918428cb7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4789221
+project-id = 921247

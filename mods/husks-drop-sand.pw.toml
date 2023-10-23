@@ -1,0 +1,13 @@
+name = "Husks drop sand [Fabric/Forge]"
+filename = "huskdropsand-1.19.2-7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7bb97483776bcdcb23b200f86bdcc6627346337"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3925559
+project-id = 476656

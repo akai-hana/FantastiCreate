@@ -1,0 +1,13 @@
+name = "Botany Pots Tiers"
+filename = "BotanyPotsTiers-Fabric-1.19.2-3.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25f9e10f46a2700cdd78037d7b5a5b85401604cc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4461121
+project-id = 526754

@@ -1,0 +1,13 @@
+name = "Dead Guys Sculk+"
+filename = "sculk+.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62e2741419c53628510bb41542876eef0b6de16f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3651957
+project-id = 581138

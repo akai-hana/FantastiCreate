@@ -1,0 +1,13 @@
+name = "Mystic Potions"
+filename = "MysticPotions-1.1.2-1.19.2-Multi.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7e1e81345c25ddf8106fbe3728e611b3c5100262"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4729404
+project-id = 682855

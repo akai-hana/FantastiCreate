@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginnings"
+	group: ""
+	id: "55889D0BB9D425D3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			hide: true
+			id: "7D8DC98036F130A3"
+			tasks: [
+				{
+					count: 15L
+					id: "6F6335CB717FC563"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "3DC8468EBB613A6D"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4385D32D503A5A1E"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The first night can be quite challenging."
+				""
+				"Mobs such as \"Upgraded Mobs\", \"Mob Variants\", \"Friends \\& Foes\", \"Species\" and \"The Graveyard\" introduce new hostile mobs, and buff the existing ones from vanilla."
+				""
+				"Specially if you're playing on hardcore; forget everything you know, and don't let your guard down. Treat every mob as a major danger, and you will (probably) be fine... (probably.)"
+			]
+			icon: "minecraft:red_bed"
+			id: "22A1CDE3125E4D11"
+			rewards: [{
+				count: 8
+				id: "5B5B62A8A466FC29"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.5d
+			subtitle: "Surviving your first night"
+			tasks: [{
+				count: 8L
+				id: "358CAB4EE52E1E46"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "First day on Earth"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			description: [
+				"Sometimes, hardcore can be a bit too challenging. Sometimes, all we need is a second opportunity. This totem exists for that purpose."
+				""
+				"Take it if you want, or don't if you don't. Up to you."
+			]
+			hide: true
+			icon: "twilightforest:charm_of_life_1"
+			id: "1248C1F91190E127"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EB1BD61669C37E5"
+				table_id: 7215877309413799628L
+				type: "choice"
+			}]
+			shape: "diamond"
+			subtitle: "If you're playing on hardcore..."
+			tasks: [{
+				id: "6A86DF60DF6E2595"
+				type: "checkmark"
+			}]
+			title: "A second life"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			hide: true
+			id: "2F42EA41494378AD"
+			tasks: [{
+				count: 15L
+				id: "7C1273849B4894DE"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+	]
+	title: "Beginnings"
+}

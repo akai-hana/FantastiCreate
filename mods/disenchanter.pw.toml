@@ -1,0 +1,13 @@
+name = "Disenchanter"
+filename = "disenchanter-0.1.7+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb06905513970c3860bcad50ed28dcb3bed042d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3834435
+project-id = 542473

@@ -1,0 +1,13 @@
+name = "Max Health Fix"
+filename = "MaxHealthFix-Fabric-1.19.2-8.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a624061084c87fd8b7dcc465598d41252b2e684e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3943054
+project-id = 492246

@@ -1,0 +1,13 @@
+name = "Clear Netherrack"
+filename = "clearnetherrack-2022.0809.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ylQg0h2j/versions/30TvUi4z/clearnetherrack-2022.0809.jar"
+hash-format = "sha1"
+hash = "b5336de7a62e865de1edfb6169382ad96e31bb7f"
+
+[update]
+[update.modrinth]
+mod-id = "ylQg0h2j"
+version = "30TvUi4z"

@@ -1,0 +1,13 @@
+name = "Wondrous Wilds"
+filename = "wondrouswilds-1.19.2-1.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4c8ffdb24e5685480022304e946d32da30da08c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4384973
+project-id = 639982

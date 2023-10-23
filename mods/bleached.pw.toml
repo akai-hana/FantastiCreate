@@ -1,0 +1,13 @@
+name = "Bleached"
+filename = "bleached-1.1.0-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "84e598fdab04be07c421118a53daa89e900ad70c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4048461
+project-id = 665518

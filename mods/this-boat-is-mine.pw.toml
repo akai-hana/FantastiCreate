@@ -1,0 +1,13 @@
+name = "This boat is MINE!"
+filename = "this-boat-is-mine-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21125c72e867b1a26369cf9ba0421d0aad8491ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4636416
+project-id = 884043

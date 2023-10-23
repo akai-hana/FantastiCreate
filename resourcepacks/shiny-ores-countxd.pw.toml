@@ -1,0 +1,13 @@
+name = "Shiny Ores"
+filename = "shiny ores 1.19 - 1.19.2 v1.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8ce8e8f10e0fc421bee585bfffb5e28609fa91c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4540601
+project-id = 849740

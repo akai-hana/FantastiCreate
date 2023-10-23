@@ -1,0 +1,13 @@
+name = "NarrusYeetus"
+filename = "NarrusYeetus-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2fa62f91c4be4f21edb8f21fbea63ed8b47da098"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4748036
+project-id = 910245

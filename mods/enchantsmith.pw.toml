@@ -1,0 +1,13 @@
+name = "Enchantsmith"
+filename = "enchantsmith-fabric-1.0.5-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fd7d56b9d6ad205400ff5fe2cc509aa1913e16c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4772341
+project-id = 914215

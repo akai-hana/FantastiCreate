@@ -1,0 +1,13 @@
+name = "Netherite Stick - Fabric"
+filename = "netheritestick-1.0.1-1.19-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8af3b8380625325511cc5ce686b9e132fc8251af"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4475991
+project-id = 670399

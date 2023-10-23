@@ -1,0 +1,13 @@
+name = "More Uses"
+filename = "More uses fabric 1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0eb833f8bfcc970186cf504abcdf83516359a402"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4746957
+project-id = 911947

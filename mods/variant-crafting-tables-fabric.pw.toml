@@ -1,0 +1,13 @@
+name = "Variant Crafting Tables [Fabric | Quilt]"
+filename = "variantcraftingtables-3.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cecc76dfbe28264f79270141ecc181dfc7175536"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4623685
+project-id = 575271

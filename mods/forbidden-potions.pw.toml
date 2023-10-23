@@ -1,0 +1,13 @@
+name = "Forbidden Potions"
+filename = "ForbiddenPotions-1.1.0-1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4bD9ilIR/versions/Xf7feEY9/ForbiddenPotions-1.1.0-1.19.2.jar"
+hash-format = "sha1"
+hash = "890d5598d4165768d875bfa40811156ee38fb765"
+
+[update]
+[update.modrinth]
+mod-id = "4bD9ilIR"
+version = "Xf7feEY9"

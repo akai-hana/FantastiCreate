@@ -1,0 +1,13 @@
+name = "Game window go brrr"
+filename = "MinecraftClientGobrrr-1.1-MC1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab4aa102b68520c66954e81da170d50d6d647eeb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4579652
+project-id = 860272

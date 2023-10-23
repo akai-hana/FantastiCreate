@@ -1,0 +1,13 @@
+name = "Sneak Tweak"
+filename = "sneaktweak-1.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "15525fd3630ee027483fc42a718889b4d90bea86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3822947
+project-id = 432334

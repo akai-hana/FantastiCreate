@@ -1,0 +1,13 @@
+name = "Attribute Tooltip Fix"
+filename = "attributetooltipfix-fabric-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19e8e0de3abec991b15cbe9e0d6745daeb4dcd4f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3932462
+project-id = 658833

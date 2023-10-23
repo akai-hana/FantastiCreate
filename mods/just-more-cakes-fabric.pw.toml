@@ -1,0 +1,13 @@
+name = "Just More Cakes! (Fabric)"
+filename = "JustMoreCakes-fabric-1.19.2-6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d0920c485dee798f6aea2981684fe34682f14ae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4361658
+project-id = 817284

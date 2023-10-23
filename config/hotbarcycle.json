@@ -1,0 +1,17 @@
+{
+  "playSound": true,
+  "reverseCycleDirection": false,
+  "holdAndScroll": false,
+  "enableRow1": true,
+  "enableRow2": true,
+  "enableRow3": true,
+  "enableColumn0": true,
+  "enableColumn1": true,
+  "enableColumn2": true,
+  "enableColumn3": true,
+  "enableColumn4": true,
+  "enableColumn5": true,
+  "enableColumn6": true,
+  "enableColumn7": true,
+  "enableColumn8": true
+}

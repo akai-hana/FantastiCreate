@@ -1,0 +1,13 @@
+name = "High-Speed Rail"
+filename = "highspeed-rail-0.0.3+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bdf818d9e1b2bd42537d0fc35675c7e16422abd4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4505590
+project-id = 576896

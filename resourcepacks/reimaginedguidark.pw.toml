@@ -1,0 +1,13 @@
+name = "Reimagined Gui (Dark)"
+filename = "ReimaginedGUI(Dark) 1.19.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3d52be508f5f96f2f43d5440735c6c18339477e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4536515
+project-id = 698096

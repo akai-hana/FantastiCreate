@@ -1,0 +1,13 @@
+name = "More Beautiful Torches"
+filename = "morebeautifultorches-2.5.2-1.19.2_fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bff64f7b5b03713802aab32e9ba8b39ec988e095"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4761649
+project-id = 860325

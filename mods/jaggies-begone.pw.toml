@@ -1,0 +1,13 @@
+name = "Jaggies Begone"
+filename = "jaggiesbegone-1.0-1.19.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pgz6omHw/versions/1YdTCMEH/jaggiesbegone-1.0-1.19.2.jar"
+hash-format = "sha1"
+hash = "cde64cfadc797d72534098c8a3e1e5c54b446a58"
+
+[update]
+[update.modrinth]
+mod-id = "pgz6omHw"
+version = "1YdTCMEH"

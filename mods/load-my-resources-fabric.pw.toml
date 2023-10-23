@@ -1,0 +1,13 @@
+name = "Load My Resources [Fabric]"
+filename = "loadmyresources_fabric_1.0.4_MC_1.19-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "61a63cbc4c76a3dcadf9f3f6cf0d2674ede90d7b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4118346
+project-id = 534835

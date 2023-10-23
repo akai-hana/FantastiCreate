@@ -1,0 +1,13 @@
+name = "Sakura Blossoms"
+filename = "sakurablossoms-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "189e3ba504ad3ca80a9b1c4776dd51b7ebf50bcc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3669559
+project-id = 541689

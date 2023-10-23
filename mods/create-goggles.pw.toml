@@ -1,0 +1,13 @@
+name = "Create Goggles (Create Plus)"
+filename = "creategoggles-1.19.2-0.5.5.e-[FABRIC].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b257a4994651529cfeff59ac0b31ddb72237b16d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4787697
+project-id = 377835

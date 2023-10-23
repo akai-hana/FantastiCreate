@@ -1,0 +1,13 @@
+name = "Recall Potion [Fabric]"
+filename = "recallpotion-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac89ddc6c774e810eba293ba4f8f9275bf371d21"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4136351
+project-id = 721416

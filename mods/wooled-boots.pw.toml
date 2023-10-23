@@ -1,0 +1,13 @@
+name = "Wooled Boots"
+filename = "Wooled-Boots-v1.4-FABRIC-mc1.19.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ff97a315e3063bf2bb168080d2f5586575880c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3903058
+project-id = 541049

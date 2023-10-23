@@ -1,0 +1,13 @@
+name = "Ube's Delight"
+filename = "ubes-delight-0.1.4-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0ddabeb3c6049ced6c15bf8d9bb5dcc9c8a1fb4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4720667
+project-id = 903894

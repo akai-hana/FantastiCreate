@@ -1,0 +1,13 @@
+name = "Use Glowstone Dust as Glow Ink Sacs [Fabric/Forge]"
+filename = "glowstoneinc-1.19.2-2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc54f2214d7948fed656ea8d7612a3bce0682179"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3943286
+project-id = 658805

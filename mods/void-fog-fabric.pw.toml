@@ -1,0 +1,13 @@
+name = "Void Fog [Fabric]"
+filename = "Void-Fog-2.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c7d24c820dc7da8c1c04b2f920e31bf668a1a9c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4166506
+project-id = 353648

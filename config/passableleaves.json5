@@ -1,0 +1,14 @@
+{
+	"fallingDistanceReductionMultiplier": 0.5,
+	"fallingSpeedReductionMultiplier": 0.5,
+	"slowMultiplier": -0.20000000298023224,
+	"fallingEnabled": true,
+	"slowEnabled": true,
+	"enchantmentEnabled": true,
+	"playerOnlyAffected": false,
+	"walkOnTopOfLeavesEnabled": false,
+	"sprintOnTopOfLeavesEnabled": false,
+	"fallWhenSneakingEnabled": true,
+	"soundEnabled": true,
+	"particlesEnabled": true
+}

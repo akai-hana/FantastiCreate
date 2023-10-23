@@ -1,0 +1,67 @@
+{
+  "version": 9,
+  "blockEntityPatches": {
+    "potSherdValidationEnabled": true,
+    "customNameValidationEnabled": true
+  },
+  "blockPatches": {
+    "upsideDownPortalPatchEnabled": true
+  },
+  "entityPatches": {
+    "customNameValidationEnabled": true
+  },
+  "nbtPatches": {
+    "sizeLimitEnabled": false
+  },
+  "networkPatches": {
+    "clientBound": {
+      "particleLimitEnabled": true,
+      "particleLimit": 500
+    }
+  },
+  "renderPatches": {
+    "entity": {
+      "nameLengthLimitEnabled": true,
+      "nameLengthLimit": 255
+    },
+    "hud": {
+      "heartCountLimitEnabled": true,
+      "absorptionHeartCountLimitEnabled": true,
+      "maxAbsorptionHeartsToRender": 48,
+      "maxHeartsToRender": 48
+    }
+  },
+  "resourcePatches": {
+    "playerSkins": {
+      "minimumSkinResolutionEnforcementEnabled": true
+    }
+  },
+  "textPatches": {
+    "general": {
+      "arrayDepthMode": "OBVIOUS",
+      "arrayDepthMaximum": 96
+    },
+    "clickEvent": {
+      "commandClickClientMode": "NOTIFY",
+      "commandClickServerMode": "NOTIFY"
+    },
+    "extra": {
+      "emptyArrayPatchEnabled": true
+    },
+    "hoverEvent": {
+      "identifierPatchEnabled": true,
+      "uuidPatchEnabled": true
+    },
+    "translation": {
+      "boundaryPatchEnabled": true,
+      "placeholderLimitEnabled": true,
+      "placeholderLimit": 16
+    }
+  },
+  "overrides": {
+    "sensitivePatchesAllowed": true,
+    "disabledPatches": [],
+    "serverCommandEnabled": true,
+    "clientCommandEnabled": true
+  }
+}

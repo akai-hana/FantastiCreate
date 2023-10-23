@@ -1,0 +1,13 @@
+name = "ChatLagRemover"
+filename = "chatlagremover-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a805bbd050cd38846723f4aa03f488cb1fda5c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4365878
+project-id = 565947

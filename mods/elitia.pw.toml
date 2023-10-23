@@ -1,0 +1,13 @@
+name = "Create: Elitia Addon"
+filename = "Elitia_Fabric_v0.5.4_mc1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e29be8564363320b79395e09ce82ad0967deb899"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4778868
+project-id = 869550

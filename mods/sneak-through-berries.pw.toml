@@ -1,0 +1,13 @@
+name = "Sneak Through Berries"
+filename = "stb-5.0.0+1.19-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc375e7a09f04b36b905b3bf8b546bf5375400fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3835092
+project-id = 324945

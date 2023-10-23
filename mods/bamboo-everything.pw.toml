@@ -1,0 +1,13 @@
+name = "Bamboo Everything"
+filename = "BambooEverything-fabric-2.0.0-build.23+mc1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21bb0b990d3870826e2c4e333f4c491f7c261d13"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4007577
+project-id = 331723

@@ -1,0 +1,13 @@
+name = "Radiant Gear (Fabric 1.19 - 1.19.2)"
+filename = "radiantgear-fabric-2.0.1+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d62ccd3419218f29e60a00b86cdccba3b12179e2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4325447
+project-id = 688450

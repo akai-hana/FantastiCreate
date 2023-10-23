@@ -1,0 +1,13 @@
+name = "I've Spoken"
+filename = "ive-spoken-1.19-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OidSa416/versions/OmV3KHNY/ive-spoken-1.19-1.0.1.jar"
+hash-format = "sha1"
+hash = "771ff53b068171f8d9b01534dabc8af3b2e0fb47"
+
+[update]
+[update.modrinth]
+mod-id = "OidSa416"
+version = "OmV3KHNY"

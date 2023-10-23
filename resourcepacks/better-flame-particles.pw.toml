@@ -1,0 +1,13 @@
+name = "Better Flame Particles [Resource Pack]"
+filename = "better_flame_particles-v2.0-mc1.14x-1.20x-resourcepack.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fd387399a780d1dfe29f58155a4094f6308d48c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4764092
+project-id = 782814

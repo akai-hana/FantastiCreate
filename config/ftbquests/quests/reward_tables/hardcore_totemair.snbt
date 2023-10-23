@@ -1,0 +1,10 @@
+{
+	id: "6423F22E7A6936CC"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:totem_of_undying" }
+		{ }
+	]
+	title: "hardcore totem/air"
+}

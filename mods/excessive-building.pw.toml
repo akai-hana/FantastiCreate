@@ -1,0 +1,13 @@
+name = "Excessive Building"
+filename = "excessive_building-FABRIC-1.4.2-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b163da177d0451716195526bd0efd2cbd08c7ceb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4755598
+project-id = 845097

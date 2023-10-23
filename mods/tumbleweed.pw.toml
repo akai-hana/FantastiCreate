@@ -1,0 +1,13 @@
+name = "Tumbleweed"
+filename = "Tumbleweed-fabric-1.19-0.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6bb733dc1c45cf78f61a3f73c6d13d151a55cd8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3929970
+project-id = 245028

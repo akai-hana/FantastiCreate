@@ -1,0 +1,13 @@
+name = "Charm Fixer"
+filename = "charm_fixer-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ddcdeda87098b65a08169b8247b4f63b3a1575f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4081618
+project-id = 700906

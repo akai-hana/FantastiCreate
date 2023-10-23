@@ -1,0 +1,13 @@
+name = "Trade Uses"
+filename = "tradeuses-1.1.1-1.19.2-FABRIC.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0da37bf29d8d26c049f979d99aedc686692bb0d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4718631
+project-id = 902314

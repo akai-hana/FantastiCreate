@@ -1,0 +1,13 @@
+name = "DayOfMind Additions"
+filename = "additions-008.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1b314fc0461cbf38cf93a25934bf66cb0094572d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4449575
+project-id = 460558

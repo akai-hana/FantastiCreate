@@ -1,0 +1,13 @@
+name = "Elytra Drag"
+filename = "elytra-drag-0.2-1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c61a4f31d85b3da425ce97067048243d1bdb5fd8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4759957
+project-id = 911203
