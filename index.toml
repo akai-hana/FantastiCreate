@@ -3817,7 +3817,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorize.pw.toml"
-hash = "e2cd8e7932e3bb65a8687f25168ed1d4793d31c1aa914e8e9c155fd1bb8e344f"
+hash = "cc9fdcda07f06fa24b1502b6b6daa6fe3eaa0989ab7626442044be74fddba73c"
 metafile = true
 
 [[files]]
@@ -5290,7 +5290,7 @@ metafile = true
 
 [[files]]
 file = "mods/pillage.pw.toml"
-hash = "3eb5ea8dd7f0c73887865e6890836a5ac018b99bbf1cdc7f9bfd3c6187771a75"
+hash = "027b9fe66758c566b965da6b74f83e897ec70faf9f55c1184a3d0675076d7eda"
 metafile = true
 
 [[files]]
@@ -5780,7 +5780,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "ea4f7fd01762eb0b6d974ce4631c45a927d33db778b6bdc8c5a5a7767507052a"
+hash = "1bb1226b0275e7f683873f33f236cf622ac1ae0f2b21feceb9d98f9bffa4f053"
 metafile = true
 
 [[files]]

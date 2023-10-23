@@ -2,6 +2,6 @@ name = "Colorize"
 filename = "colorize-1.19.2-fabric-1.4.0.jar"
 
 [download]
-url = "https://thebestastronot.github.io/FantastiCreateDev/colorize-1.19.2-fabric-1.4.0.jar"
+url = "https://sombrae.github.io/FantastiCreate/colorize-1.19.2-fabric-1.4.0.jar"
 hash-format = "sha256"
 hash = "750085608dfada40e225a2b72891b1aeeb32b1c2637cb35168a0d03e2dcfc02f"
