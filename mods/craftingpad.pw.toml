@@ -1,0 +1,13 @@
+name = "CraftingPad"
+filename = "CraftingPad-1.19.2-1.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wyaOz4TN/versions/j5V3xt9U/CraftingPad-1.19.2-1.0.10.jar"
+hash-format = "sha1"
+hash = "86148db059a2563bd3d767cf10f4f4178a581104"
+
+[update]
+[update.modrinth]
+mod-id = "wyaOz4TN"
+version = "j5V3xt9U"
