@@ -3809,7 +3809,7 @@ metafile = true
 
 [[files]]
 file = "mods/compress-it.pw.toml"
-hash = "7c16fa30b87c05c1d67787e189519426b907ee89a8da3ffd3d377e791139405a"
+hash = "e271f83b0b072a2fb548c106d7e11351668e5b8860b3b3abcf5b39c1de0bd653"
 metafile = true
 
 [[files]]
@@ -3874,11 +3874,6 @@ metafile = true
 [[files]]
 file = "mods/craftingcraft-fabric-1.19-13.0.0.jar"
 hash = "d5c11988e612cf5acf3576d8e5ceafe067514253b0bd551cc416a978a2679b7d"
-
-[[files]]
-file = "mods/craftingpad.pw.toml"
-hash = "4e3ceabe9477990fddb7da2784c99aef5f95092ee9c9ba07470258df3d29dea4"
-metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
@@ -5371,7 +5366,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "d41e8b4fcf5af118b6958351774b5c07eb06a6a0e9a36d2230a0083bccaf9be0"
+hash = "17651adb28b085101dcded29ef037e6622849a98b21d1c1872185e7b241a32f6"
 metafile = true
 
 [[files]]
