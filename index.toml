@@ -5,6 +5,14 @@ file = "1.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "Structory_1.19.3_v1.3.1a.jar"
+hash = "49de3de56ef6e71ad778cf457cc7145c4380099803a924d426bef7d28f1e8d3c"
+
+[[files]]
+file = "colorize-1.19.2-fabric-1.4.0.jar"
+hash = "750085608dfada40e225a2b72891b1aeeb32b1c2637cb35168a0d03e2dcfc02f"
+
+[[files]]
 file = "config/.puzzle_cache/mojangstudios.png"
 hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
 
@@ -3786,7 +3794,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorize.pw.toml"
-hash = "780a26d171b7277ffd8b8a17ddd5ddb55d7aef0c2c805d7a8b02e5cb29f03937"
+hash = "cc9fdcda07f06fa24b1502b6b6daa6fe3eaa0989ab7626442044be74fddba73c"
 metafile = true
 
 [[files]]
@@ -4684,11 +4692,6 @@ hash = "dfbdb89a9b842c190339d6d60a6a2e812e3d3bdcd986610e3b740ec478e4dcb0"
 metafile = true
 
 [[files]]
-file = "mods/it-takes-a-pillage-fabric.pw.toml"
-hash = "53301192b753b87f5aecbf2a467be6cded0fbb1fb34aa8024642e1e6bc707abd"
-metafile = true
-
-[[files]]
 file = "mods/item-borders-fabric.pw.toml"
 hash = "96fb4b4ccdd431249be8dc30d656d358b972347bc93734f5f7435c47839ca86e"
 metafile = true
@@ -5243,6 +5246,11 @@ hash = "a7d9c2b72a7d88a854aad2ffcc9be808db556f16c3cec5ab49f730b091627942"
 metafile = true
 
 [[files]]
+file = "mods/pillage.pw.toml"
+hash = "027b9fe66758c566b965da6b74f83e897ec70faf9f55c1184a3d0675076d7eda"
+metafile = true
+
+[[files]]
 file = "mods/pling.pw.toml"
 hash = "dfc73c6ed21d8be632f3d253bd23a921b1e690107a0cd70c63c55a5568278bfd"
 metafile = true
@@ -5706,7 +5714,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "0ac60475f877d019e8d77e4d3241f39e395ccce21b191a999f279fe566e7e9f2"
+hash = "1bb1226b0275e7f683873f33f236cf622ac1ae0f2b21feceb9d98f9bffa4f053"
 metafile = true
 
 [[files]]
@@ -20577,3 +20585,7 @@ hash = "e6566fb5e40a011336a156f8a7fd77c3e1e2827fe7220e04ca3b1f3a0a55755e"
 [[files]]
 file = "shaderpacks/rethinking-voxels_r0.1_alpha4 (default).zip"
 hash = "1cf4c40e6cd058a8b9fda70c706d99e549646466a7a7bf189911388666014e34"
+
+[[files]]
+file = "takesapillage-1.0.3-1.19.2.jar"
+hash = "037201d1f353f679beb9c6c3bf2e5900dc6f596de52614ac3e3efe41898445a0"
