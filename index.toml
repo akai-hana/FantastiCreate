@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "1.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "Structory_1.19.3_v1.3.1a.jar"
 hash = "49de3de56ef6e71ad778cf457cc7145c4380099803a924d426bef7d28f1e8d3c"
 
