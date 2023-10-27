@@ -1,13 +1,13 @@
-name = "FantastiCreate Dev"
+name = "FantastiCreate Dev Release 4"
 author = "akai_hana"
-version = "8.0.0"
+version = "4.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "81f0a9406490b98aa82b049a94c5cf930b1661126f684bb7e13056e5cf7536dd"
+hash = "a0346ebd9e55a031b4b8c2e6832e179926fe8451bdc2297f9f134c8bd376b303"
 
 [versions]
-fabric = "0.14.22"
+fabric = "0.14.24"
 minecraft = "1.19.2"
