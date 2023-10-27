@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "1.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/.puzzle_cache/mojangstudios.png"
 hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
 
@@ -3782,7 +3786,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorize.pw.toml"
-hash = "56b1a4163c5c7bce6c9c42a842d91c331409be202f5b7588ff7449744595eb8f"
+hash = "780a26d171b7277ffd8b8a17ddd5ddb55d7aef0c2c805d7a8b02e5cb29f03937"
 metafile = true
 
 [[files]]
@@ -3797,7 +3801,7 @@ metafile = true
 
 [[files]]
 file = "mods/compress-it.pw.toml"
-hash = "e271f83b0b072a2fb548c106d7e11351668e5b8860b3b3abcf5b39c1de0bd653"
+hash = "7c16fa30b87c05c1d67787e189519426b907ee89a8da3ffd3d377e791139405a"
 metafile = true
 
 [[files]]
@@ -3865,7 +3869,7 @@ hash = "d5c11988e612cf5acf3576d8e5ceafe067514253b0bd551cc416a978a2679b7d"
 
 [[files]]
 file = "mods/craftingpad.pw.toml"
-hash = "c24f639d603067b4930afa261923885764ce16db45a79fc85a5e145cbecacbf1"
+hash = "4e3ceabe9477990fddb7da2784c99aef5f95092ee9c9ba07470258df3d29dea4"
 metafile = true
 
 [[files]]
@@ -4681,7 +4685,7 @@ metafile = true
 
 [[files]]
 file = "mods/it-takes-a-pillage-fabric.pw.toml"
-hash = "08469edc3728f89e436047f4016adb687ab14e2ad6b4f2752ad58b0a9b21ba62"
+hash = "53301192b753b87f5aecbf2a467be6cded0fbb1fb34aa8024642e1e6bc707abd"
 metafile = true
 
 [[files]]
@@ -5359,7 +5363,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "271ddbefed313b946f404dcf7fec60d96656c44167bf066a1d4c7cd9af0be3c9"
+hash = "d41e8b4fcf5af118b6958351774b5c07eb06a6a0e9a36d2230a0083bccaf9be0"
 metafile = true
 
 [[files]]
@@ -5702,7 +5706,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "d4acddd9dbe8063560fa281eb07898471841df72832e6068015cb742928f2e90"
+hash = "0ac60475f877d019e8d77e4d3241f39e395ccce21b191a999f279fe566e7e9f2"
 metafile = true
 
 [[files]]
