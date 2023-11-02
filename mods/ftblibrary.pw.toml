@@ -1,0 +1,7 @@
+name = "ftblibrary"
+filename = "ftb-library-fabric-1902.4.0-build.232.jar"
+
+[download]
+url = "https://sombrae.github.io/FantastiCreate/ftb-library-fabric-1902.4.0-build.232.jar"
+hash-format = "sha256"
+hash = "5c604e0a1e77557bb61ba0e35ed00c58d88002ab5084cdc591175ce00eb82223"

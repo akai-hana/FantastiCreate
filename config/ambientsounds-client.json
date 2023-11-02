@@ -40,9 +40,9 @@
       "wind": 1
     },
     "underwater": {
-      "overall": 1,
-      "underwater": 1,
-      "underwater-deep": 1
+      "overall": 0,
+      "underwater": 0,
+      "underwater-deep": 0
     },
     "rain": {
       "overall": 1,

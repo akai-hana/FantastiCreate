@@ -8,7 +8,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["22A1CDE3125E4D11"]
+			dependencies: ["71AE08501636131D"]
+			description: [
+				"The water you consume from bottles will also give you thirst, but not to the same degree as if you drank water directly from a river or ocean, which by the way, if I haven't told you already, drinking raw water will pretty much kill you, lowering your thirst bar to rock bottom, so... Don't do that."
+				""
+				"Anyway, if you're about to die, try drinking from water bottles. Won't satiate your thirst completely, but they will prevent you from dying."
+			]
 			hide: true
 			id: "7D8DC98036F130A3"
 			tasks: [
@@ -28,21 +33,35 @@
 					count: 15L
 					id: "4385D32D503A5A1E"
 					item: "minecraft:glass_bottle"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "634CEE8DE6A60400"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -1.5d
+			title: "Good ol' water bottles"
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			description: [
-				"The first night can be quite challenging."
+				"&0The first night can be quite challenging."
 				""
-				"Mobs such as \"Upgraded Mobs\", \"Mob Variants\", \"Friends \\& Foes\", \"Species\" and \"The Graveyard\" introduce new hostile mobs, and buff the existing ones from vanilla."
+				"Mobs such as &8&oUpgraded Mobs&r&r, &8&oMob Variants&r&r, &8&oFriends \\& Foes&r&r, &8&oSpecies&r&r and &8&oThe Graveyard&r&r introduce new hostile mobs, and buff the existing ones from vanilla."
 				""
-				"Specially if you're playing on hardcore; forget everything you know, and don't let your guard down. Treat every mob as a major danger, and you will (probably) be fine... (probably.)"
+				"Specially if you're playing on hardcore; &lforget everything you know, and don't let your guard down&r. Treat every mob as a major danger, and you will (probably) be fine... (&oprobably.&r)"
 			]
-			icon: "minecraft:red_bed"
+			icon: "minecraft:sunflower"
 			id: "22A1CDE3125E4D11"
 			rewards: [{
 				count: 8
@@ -50,18 +69,19 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			shape: "rsquare"
-			size: 2.5d
+			shape: "gear"
+			size: 3.0d
 			subtitle: "Surviving your first night"
 			tasks: [{
+				consume_items: true
 				count: 8L
-				id: "358CAB4EE52E1E46"
+				id: "51242B606A2ED76C"
 				item: "minecraft:dirt"
 				type: "item"
 			}]
 			title: "First day on Earth"
-			x: -7.0d
-			y: 0.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["22A1CDE3125E4D11"]
@@ -80,33 +100,2935 @@
 				table_id: 7215877309413799628L
 				type: "choice"
 			}]
-			shape: "diamond"
+			shape: "heart"
+			size: 1.25d
 			subtitle: "If you're playing on hardcore..."
 			tasks: [{
 				id: "6A86DF60DF6E2595"
 				type: "checkmark"
 			}]
 			title: "A second life"
-			x: -6.0d
-			y: 2.5d
+			x: -7.5d
+			y: 3.125d
 		}
 		{
+			dependencies: ["7D8DC98036F130A3"]
+			description: [
+				"Tired of being thirsty all the time?"
+				"You can try purifying those water bottles you have."
+				""
+				"&oHow&r do you purify them?"
+				"By cooking them on a campfire. Nope, furnaces won't work."
+			]
 			hide: true
 			id: "2F42EA41494378AD"
+			tasks: [
+				{
+					id: "39CCF80BB20CF223"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "02BA2E18FF94A05B"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:purified_water"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Thirst solved"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			description: [
+				"When you go to sleep, you must have your stomach completely full, or else, you will only lay on the bed, unable to sleep. When you wake up, you'll be hungry and thirsty, so be sure to have some supplies prepared."
+				""
+				"Here, have some milk and cookies. They'll help you sleep. :)"
+				""
+				"&7&oNote: You need to press space while laying on the bed to sleep. If not, you'll just lay down there."
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:red_bed"
+			id: "0B6A661CF49910BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DAC498FF004ECDE"
+					table_id: 2502445329847485109L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68A1CF646EC98A51"
+					table_id: 6771259167048198428L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Don't go to bed on an empty stomach..."
 			tasks: [{
-				count: 15L
-				id: "7C1273849B4894DE"
+				id: "45DEC6785249C94B"
 				item: {
 					Count: 1b
-					id: "minecraft:potion"
+					id: "itemfilters:tag"
 					tag: {
-						Potion: "minecraft:water"
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Sleep time"
+			x: -8.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			description: [
+				"In this modpack, you will require &9water&r to survive (wow, &oso realistic&r)."
+				""
+				"Anyway, there are two main ways of producing water, each one with its own advantages."
+			]
+			icon: "minecraft:water_bucket"
+			id: "71AE08501636131D"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Humans get thirsty? Crazy."
+			tasks: [{
+				id: "73330C86039A2B6F"
+				type: "checkmark"
+			}]
+			title: "Purified water"
+			x: -6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["71AE08501636131D"]
+			description: ["This &6pouch&r will automatically filter the water it collects, as long as it is deep enough on a river or ocean. If you see that the water isn't being filtered, try elsewhere on a different spot, and if it's still not working, maybe the river or ocean is too contaminated. In that case, try on a different place altogether."]
+			hide: true
+			id: "39D70CD16FE9A96C"
+			subtitle: "Life-long guarantee"
+			tasks: [{
+				id: "31E4C874ECCB4EFF"
+				item: "dehydration:leather_flask"
+				type: "item"
+			}]
+			title: "Water filtering pouch."
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39D70CD16FE9A96C"]
+			description: [
+				"Flasks can be upgraded, starting from iron and going all the way towards netherite."
+				"If you find yourself short on water, try upgrading it as further as you can."
+				"If you're too poor, you can also try carrying a stack of bottles along your flask, and alternate between these two water sources."
+				""
+				"Craft a netherite flask and "
+			]
+			id: "7E8015D9B8AED3F7"
+			optional: true
+			shape: "diamond"
+			subtitle: "Aliexpress flask vs Amazon flask"
+			tasks: [{
+				id: "29853A1A57ADEE93"
+				item: "dehydration:netherite_leather_flask"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "10$ flask vs 100$ flask"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			description: [
+				"Backpacks have always existed on modded Minecraft. I've always played modded, and find backpacks a necessity."
+				""
+				"The first tier of this backpack, leather, will only provide two rows of inventory, but as you upgrade it further, it will expand its inventory."
+				""
+				"Try crafting one, it's insanely useful. It can even store liquids too, and if you get smart, you can store purified water or lava to use as fuel. Up to you."
+			]
+			hide_dependency_lines: true
+			id: "12B097F5746CA612"
+			size: 1.5d
+			subtitle: "Simple yet useful"
+			tasks: [{
+				id: "47ACF1FAA24E2AF2"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Traveler's Backpack"
+			x: -6.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["12B097F5746CA612"]
+			description: [
+				"Backpacks can be upgraded using different crafting patterns to give you certain buffs."
+				""
+				"As protection is important, this backpack is probably one of the most useful ones throughout all the upgrades, giving you a whopping +4 armor (even more armor than a netherite helmet!), although you can check the other upgrades and see if some catch your eye."
+			]
+			hide: true
+			id: "0E32DC8FAC88CA9C"
+			optional: true
+			shape: "diamond"
+			subtitle: "Talk about expensive..."
+			tasks: [{
+				id: "38AC518F26BF94CD"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:netherite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Netherite Backpack"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12B097F5746CA612"]
+			description: [
+				"Wither effects are brutal. They can basically kill you if you don't carry milk. That's why I consider this backpack the second most useful backpack to carry."
+				""
+				"If you didn't know already, you can craft and carry multiple backpacks with you, but you can carry up to 2 backpacks, carrying more will give you slowness, so be warned."
+			]
+			hide: true
+			id: "7E9C80DFF1E269D6"
+			optional: true
+			shape: "diamond"
+			subtitle: "Something like the black plague mask, but for withering effects."
+			tasks: [{
+				id: "30CBED47D616A78C"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:wither"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Wither immunity"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			description: [
+				"Food is essential for survival, and is one of the most basic forms of healing, and farming is essential to establish a stable source of food. That's why you'll want to plant some sort of food."
+				""
+				"You can plant wheat seeds, grow bread and call it a day, but a much better idea would be to try and elaborate some kind of complex recipe; the more complex is the food, the (&ousually&r) most saturation and hunger it will replenish. You can check REI (search @farmers, so all items of Farmers Delight will show on REI.)"
+				""
+				"Good luck on your farming journey!"
+			]
+			icon: "farmersdelight:rich_soil_farmland"
+			id: "73DCA270BEF2070C"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "&oI was Reincarnated as a Farmer"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "3DEA30B6A24DD33C"
+				type: "advancement"
+			}]
+			title: "Farmer's Delight"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F42EA41494378AD"]
+			description: [
+				"Yes, cooking water bottles on campfires takes a loong time, so instead, you can try placing a campfire cauldron above a campfire, filling it with water, and once it finishes cooking &7(look at the water colour to tell. If it's blue, it's not done yet. If it's cyan, it is), you can fill your water bottles using directly the cauldron."
+				""
+				"This method takes substantially less time, so I'd recommend this if copper is accessible to you."
+			]
+			id: "106B9F77143C535E"
+			tasks: [
+				{
+					id: "72EBE593E63DA7A1"
+					item: "dehydration:copper_cauldron"
+					type: "item"
+				}
+				{
+					id: "4B654CB1C202D36D"
+					item: "dehydration:campfire_cauldron"
+					type: "item"
+				}
+			]
+			title: "Advanced water production"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Here's a little fun game for you. Collect all of the knifes that the mods &oFarmer's Delight&r and &oFarmer's Knives&r have to offer."
+				""
+				"Why?"
+				""
+				"&oWhy? ...&r"
+				""
+				"Having so many knives shows your true dedication as a chef, and so, I'll give you tons of ingredients whom you can use those knives! And gift you a new entire kitchen for you, while we're at it."
+				""
+				"This quest won't consume those knives, so you can still display them as a trophy of your hard work. I'll even throw 25 cutting boards, one for each knife."
+				""
+				"&o&7Note: You need to craft the knives. Only having them on your inventory won't count. If it did, people could exploit this in multiplayer servers, passing the knives between teammates for all of them to unlock the rewards unfairly."
+			]
+			hide: true
+			id: "01BD3D2F3FCF5963"
+			optional: true
+			rewards: [
+				{
+					count: 128
+					id: "1D2CF7C768A546F1"
+					item: "supplementaries:checker_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D24A53ED1898343"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0C7DB59A6F28E0A5"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E9EEBCA077CB8DB"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "6584077C90BA9EDD"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "17DF90772E3C4ACB"
+					item: "farmersdelight:canvas_rug"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D9BEFB2B589D300"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "32868BA1E87C924E"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3146CC03B6645DA9"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08ADB75FF0D6B0AA"
+					item: "farmersdelight:tatami"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4F6120E106F010EF"
+					item: "farmersdelight:full_tatami_mat"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5F366675F7D9AC5B"
+					item: "farmersdelight:half_tatami_mat"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5ED6CA88439D010E"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "13ED82C4506A8D47"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "589D5534284EE1F9"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2755DF579764180C"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "48B0E79965C3DD64"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35A48CF608DF021D"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0E911A153B19276E"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1D59FE5BAD6CC11F"
+					item: "farmersdelight:straw_bale"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5EDF41845DDB2A71"
+					item: "farmersdelight:canvas_sign"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B2066B02F9FA32D"
+					table_id: 1406322866346090220L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			subtitle: "You're the knife master now."
+			tasks: [
+				{
+					id: "438EC79720938DA3"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "00C9939B9CE075D8"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "5A8AC81F19E5F62F"
+					item: {
+						Count: 1b
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "41EA674C5AFB9BB6"
+					item: {
+						Count: 1b
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "328C495570325D65"
+					item: {
+						Count: 1b
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "15BCD2E454C2DB60"
+					item: {
+						Count: 1b
+						id: "farmersknives:rose_gold_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "3B58A60AAB032512"
+					item: {
+						Count: 1b
+						id: "farmersknives:gilded_netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "033B0505220F528F"
+					item: {
+						Count: 1b
+						id: "farmersknives:netherite_iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "64CD374F770925E6"
+					item: {
+						Count: 1b
+						id: "farmersknives:netherite_gold_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "5EDD9E60A44CBF04"
+					item: {
+						Count: 1b
+						id: "farmersknives:netherite_emerald_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "7C51710ACEEFB7C7"
+					item: {
+						Count: 1b
+						id: "farmersknives:netherite_diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4027B7C5070CBC14"
+					item: {
+						Count: 1b
+						id: "farmersknives:aeternium_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "35783BA3ED88639F"
+					item: {
+						Count: 1b
+						id: "farmersknives:thallasium_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0461EE16CCCF6057"
+					item: {
+						Count: 1b
+						id: "farmersknives:terminite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "78503EFA7FB03B50"
+					item: {
+						Count: 1b
+						id: "farmersknives:cincinnasite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "658122E2927B43EC"
+					item: {
+						Count: 1b
+						id: "farmersknives:cincinnasite_knife_diamond"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "60986F88EEB8E130"
+					item: {
+						Count: 1b
+						id: "farmersknives:nether_ruby_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "72C2930BE4B274E0"
+					item: {
+						Count: 1b
+						id: "farmersknives:pendorite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2E88E9B1B2EA5D90"
+					item: {
+						Count: 1b
+						id: "farmersknives:warden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "209FE1CDE4536F4F"
+					item: {
+						Count: 1b
+						id: "farmersknives:dragon_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4E99A439F447C1B9"
+					item: {
+						Count: 1b
+						id: "farmersknives:ironwood_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 1s
+							}]
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "71D1D2AD33CC44AF"
+					item: {
+						Count: 1b
+						id: "farmersknives:fiery_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "25C80717B8631051"
+					item: {
+						Count: 1b
+						id: "farmersknives:steeleaf_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 1s
+							}]
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "58C9D2F6BA3C766D"
+					item: {
+						Count: 1b
+						id: "farmersknives:knightmetal_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "7EA43122E4F955E7"
+					item: {
+						Count: 1b
+						id: "farmersknives:cryomarble_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Knife collector"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: [
+				"Need a tomato?"
+				"You can get one here."
+			]
+			hide: true
+			icon: "farmersdelight:tomato"
+			id: "3D2E97958AE6BEF3"
+			optional: true
+			rewards: [{
+				id: "0A38B3DA50B9ACFD"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "07224B68BECDFC1E"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2FF0EB8831759A45"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41EBC94C70050729"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "53FB839C1D10C420"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "116D3AF6C9FED4B4"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+			]
+			title: "Tomato"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["If you ever wanted wild crops for any reason, you can do so through here."]
+			hide: true
+			id: "1DBD9AD12C4B742C"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "63CB9369B3AD0732"
+					item: "farmersdelight:wild_tomatoes"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5755BD339A16D534"
+					item: "farmersdelight:wild_cabbages"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "79C18CF985A6C09E"
+					item: "farmersdelight:wild_onions"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "388048D4214FAB4F"
+					item: "farmersdelight:wild_carrots"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "11DF0C999D93BD34"
+					item: "farmersdelight:wild_potatoes"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0B5881A517AB574B"
+					item: "farmersdelight:wild_beetroots"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "62AA25B7F2717F21"
+					item: "farmersdelight:wild_rice"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&mkinky"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "75824413E6C3281F"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5020A573FA228A1D"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "6470CCDCD2AF6249"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "103BE62D8E91C575"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7BE1896BD2800BAF"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4F38B5E216B1696F"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "24A9479530C94FE7"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+			]
+			title: "Untamed crops"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: [
+				"Cabbage, simple yet useful."
+				"Get one here."
+			]
+			hide: true
+			icon: "farmersdelight:cabbage"
+			id: "0743EB4E0B9293F8"
+			optional: true
+			rewards: [{
+				id: "45F808E3AE0986C2"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "7C7B3965DCB96E4D"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C9CFD254F6BBE49"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "38B488B092D00715"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "25BEC3374CCCA62F"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7BB3002F58854A74"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+			]
+			title: "Cabbage"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["Get your oni&mi-chan&ron here."]
+			hide: true
+			icon: "farmersdelight:onion"
+			id: "1A8906374991376E"
+			optional: true
+			rewards: [{
+				id: "3892462EC26D9746"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2478496BCA4FFF55"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0ED824DCB7B44BC1"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6F173EBE3C842071"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6DA5C5A135F844D2"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "46F707862BEA22DB"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+			]
+			title: "&oOnii-chan"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["Ahh yes, the ingredient that caused The Great Potato War..."]
+			hide: true
+			icon: "minecraft:potato"
+			id: "3CB45FA91D358F10"
+			optional: true
+			rewards: [{
+				id: "2B9844FEBB0AC24D"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3D94D9A65C604866"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4CC86C257B38728A"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2CDE3E87C083927D"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "24C41F4703415D7E"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "315F45E69DA336B7"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+			]
+			title: "&lPOTATO"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["funy pufferfish mem"]
+			hide: true
+			icon: "minecraft:carrot"
+			id: "4F69DDCD8ACB73F9"
+			optional: true
+			rewards: [{
+				id: "5420D774F24CBD08"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2BF69814F4A51859"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29034E73C0F59EDF"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "18ACD4D7D5A8667B"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "02C627EA7C27238A"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "486CA11B311DE0D5"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+			]
+			title: "Carrot"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["Disgusting... Who even likes beetroots?..."]
+			hide: true
+			icon: "minecraft:beetroot"
+			id: "16F4D4C66F885DA1"
+			optional: true
+			rewards: [{
+				id: "7759116F7963CD16"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2E5B8465713ADE4A"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "373893E8F61954E7"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B76B2C154861521"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "627884AFE4233D0E"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "719E764ECA09F918"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+			]
+			title: "&8beetroot"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"If finding &lthat&r ingredient from Farmer's Delight seems impossible, you can obtain it through here, at the cost of a crate of all other ingredients."
+				""
+				"In addition, you can reverse rice into rice panicles,  "
+			]
+			hide: true
+			icon: "lightestlamp:alchemical_dust"
+			id: "343780D0AC92CEBE"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Delicious alchemy transmutation"
+			tasks: [{
+				id: "6571023C97DA4001"
+				type: "checkmark"
+			}]
+			title: "Short on any ingredient?"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			hide: true
+			id: "27E841B95A8980A2"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "54230837C444EBDA"
+				item: "farmersdelight:rice_panicle"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "371CA6AC8F05D24A"
+				item: "farmersdelight:rice_bag"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["If you really really need bonemeal, submit a stack of each of your ingredients through here, and I'll give you a stack of bones."]
+			hide: true
+			icon: "minecraft:bone_meal"
+			id: "388D2CEEC4963855"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "2808571FDA697CEF"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Bone Apple Tea"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0414BC0B2739091C"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7E47320B97C64F2C"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "728E9349986E1F28"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "79BF4B0B37378BDA"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0605263AF2F74A11"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "79EF48FF33B6BDFE"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "590CFE348FFCB6F5"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Bonemeal"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"The perfect hoe. Sneak while tilling soil, and you'll till a perfect 5x5 area, the farthest water can hydrate soil."
+				""
+				"Talking about soil, I'll throw some rich and fertilized soil for you to increase your harvest quality."
+				"&7&o(Speed growth fertilized soil gave close results to rich soil in terms of crop speed according to my inaccurate tests, but crop rate soil duplicated crop production. YMMV.)&r&r"
+				""
+				"Farm enough of every single ingredient, and you'll be able to obtain these rewards."
+				""
+				"Good luck."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "dragonloot:dragon_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "565645C1F9015977"
+			optional: true
+			rewards: [
+				{
+					id: "7322D1EA458F2ACA"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 96
+					id: "63D76BAEEE84C598"
+					item: "farmingforblockheads:fertilized_farmland_healthy"
+					type: "item"
+				}
+				{
+					count: 96
+					id: "046201978E9BF1EE"
+					item: "farmingforblockheads:fertilized_farmland_rich"
+					type: "item"
+				}
+				{
+					count: 96
+					id: "27C70670A190AD24"
+					item: "farmersdelight:rich_soil_farmland"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Any &mman's&r farmer's dream"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "179C8D6D12DCD2CC"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5E07E30C35B8AD56"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "50FBF3C04DF83871"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3C98837E26AE7141"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "54D26F11726488D3"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3589F1DD407AE363"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "11F00FAC955FF0DE"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+			]
+			title: "The Perfect Hoe"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BC43A74EB3DD88B"]
+			description: ["Kill enough mobs, and you'll receive the looting sword."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 1
+					}]
+				}
+			}
+			id: "583BC18EDCA7B432"
+			rewards: [{
+				id: "77574885E4003066"
+				item: {
+					Count: 1b
+					id: "twilightforest:steeleaf_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 1s
+						}]
 					}
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "06FCFFE48CAA1E33"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 300
+			}]
+			title: "Looting"
+			x: -6.875d
+			y: 6.875d
+		}
+		{
+			dependencies: ["5BC43A74EB3DD88B"]
+			description: ["Get your Fortune pickaxe here, at the cost of 30 of ur XP levels."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 1
+					}]
+				}
+			}
+			id: "34895F9A6B8DEC57"
+			rewards: [{
+				id: "0DA1CC1D7D7F907F"
+				item: {
+					Count: 1b
+					id: "twilightforest:steeleaf_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "18BC71A309179E7D"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			title: "Fortune"
+			x: -5.0d
+			y: 6.875d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			description: [
+				"I've always personally hated Minecraft vanilla's enchantment system."
+				""
+				"Unbreaking encourages not using diamond tools until you enchant them with it, and even when you do, mending discourages you once again, basically requiring you to enslave librarian villagers to obtain it, building a xp farm and going there every once in a while to repair all ur gear."
+				""
+				"Then, because you're already enchanting, you also decide to go for protection, sharpness, efficiency, and everything else, which is even more grinding."
+				""
+				"By the time you finish obtaining every single enchantment, you'll end up with a hollow sensation, because up to now, Minecraft has basically been a boring grinding simulator, and you end up quitting due to burning out and having a lack of direction."
+				""
+				"{@pagebreak}"
+				""
+				"I decided to overhaul the enchantment system using the &oEnchancement&r mod, which pretty much solves all of these problems, by removing durability entirely (making gold tools relevant), making the enchantment system not RNG-based anymore (&msorry RNGesus&r), removing most vanilla enchantments except the most useful ones, and also removing tiers from those, meaning that there's no more useless \"Efficiency 1/2/3\", and only the last tier is available. "
+				""
+				"There are also many more movement-related enchantments and fun enchantments introduced, which rather than lazily increasing some stats here and there, introduce new mechanics to make the game actually fun."
+				""
+				"{@pagebreak}"
+				""
+				"However, I decided to keep two enchantments that Enchancement removes entirely, but I think they make the game less grindy."
+				""
+				"Twilight Forest keeps these as pre-enchanted weapons, these being a sword with &oLooting&r (to make getting wither skulls easier), and a pick with &oFortune&r (to reduce ore grind)."
+				""
+				"You can get these through these quests, or if you don't want to, you can also go to the Twilight Forest and get steeleaf manually, and craft the weapons yourself."
+				""
+				"{@pagebreak}"
+				""
+				"Wow, that was a lot of text to read, have a cup of milk if you want."
+			]
+			icon: "minecraft:enchanting_table"
+			id: "5BC43A74EB3DD88B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4123A9F376B60729"
+				table_id: 413568027575741977L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Screw vanilla Minecraft's enchantment overgrinding"
+			tasks: [{
+				id: "1EFA9D9F90A71141"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Enchantments are now reworked"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["343780D0AC92CEBE"]
+			description: ["Give me 9 stacks of seeds, and I'll give you some seeds you (&oprobably&r) don't have yet."]
+			hide: true
+			id: "0AF444B127ACEA8A"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "66B9BEF945E3C8F0"
+					item: "culturaldelights:cucumber_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "114655339EE8BB9B"
+					item: "culturaldelights:corn_kernels"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6007EA0D0B1F3C1A"
+					item: "culturaldelights:eggplant_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7FE2166927916F17"
+					item: "expandeddelight:asparagus_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2AA0189A2112514C"
+					item: "expandeddelight:chili_pepper_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3BE4272E8F89E1CF"
+					item: "ubesdelight:lemongrass_seeds"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Increase your recipe repertoire"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "1789F459FF9A6CF4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:seeds"
+					}
+				}
+				title: "Any #c:seeds"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Seed variety"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"The Nether is a truly dangerous place, but as a chef, you see the exoticness in the danger, and have the urge to cook some good stuff using these ingredients."
+				""
+				"Conquer the dangerounsness of the Nether by cooking some delicious dishes, and gain the &4Nether King's crown&r, allowing you for unlimited fire resistance."
+				""
+				"&o&7Note: Breaking propelplants will cause them to explode. You must use a &nknife&r&o&7 on them. That way, you'll be able to collect them. If you value your life, don't just break them bare-handed."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "4DEA54335FA335FD"
+			optional: true
+			rewards: [{
+				id: "6268AACAAF053775"
+				item: {
+					Count: 1b
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Piglins love you now"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "09258AB13366B796"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "3BE4FBF22E1AE3FE"
+					item: "nethersdelight:warped_moldy_meat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "6E7FAEB69555296F"
+					item: "nethersdelight:grilled_strider"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "5B84F6BD7ABBF422"
+					item: "nethersdelight:strider_moss_stew"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "6CA7AF31AF8CD003"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "29587F11E583F7B4"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "0E3B8AC4A3C2E36D"
+					item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "464083BB6B888C82"
+					item: "nethersdelight:nether_skewer"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "315251AC31D14D29"
+					item: "nethersdelight:magma_gelatin"
+					type: "item"
+				}
+			]
+			title: "Nether's King"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2A899BA38F842389"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "1B1849EBA2D1B7CA"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionEffects: [{
+							Ambient: 0b
+							Amplifier: 0b
+							Duration: 600
+							Id: 67
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"brewery:locked": 0b
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Are you my grandpa?"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "6CB4AFACDC6840EC"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "663890E51022595E"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "34C0D86106E41259"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+			]
+			title: "Grandpa?"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3C6AF938D2209068"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "2EBCF1881B3D3FEA"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionEffects: [{
+							Ambient: 0b
+							Amplifier: 0b
+							Duration: 600
+							Id: 68
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"brewery:locked": 0b
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Are you my grandma?"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "2739F5AB38E5DE0E"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "22F4DDCB97F9DC81"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "09966D8FB63F65CC"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+			]
+			title: "Grandma?"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Aligned with nature, animals love you."
+				""
+				"Now that you have pet food, you should probably have some pets to feed the food, right?"
+				""
+				"Claim some new buddies here."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7F9C8B666D7283DC"
+			optional: true
+			rewards: [
+				{
+					id: "44B52755CAC7D90F"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6EC8DEADC72A6A17"
+					item: "minecraft:horse_spawn_egg"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "ENFJ"
+			tasks: [
+				{
+					count: 16L
+					id: "38C0F648404C2FEE"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4D5739F87647628B"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: ["Cook some exotic ocean dishes, and become the chef of the ocean."]
+			hide: true
+			hide_dependency_lines: true
+			id: "20F8A92D115E708E"
+			optional: true
+			shape: "pentagon"
+			subtitle: "Dominating the ocean"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "3368F4C4FBE1C1F6"
+					item: "oceansdelight:cut_tentacles"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3590CA60CBD923D0"
+					item: "oceansdelight:baked_tentacle_on_a_stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "7507F2F11A7A8FC4"
+					item: "oceansdelight:cooked_guardian_tail"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "647515F7DE03B6F8"
+					item: "oceansdelight:bowl_of_guardian_soup"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7BE8D1485D6311AE"
+					item: "oceansdelight:cabbage_wrapped_elder_guardian"
+					type: "item"
+				}
+			]
+			title: "Poseidon"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Happy birthday, happy birthday..."
+				"Happy birthday to you!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "71ED011B16440D9A"
+			optional: true
+			rewards: [{
+				id: "65D6E981260342CC"
+				item: "jmc:creeper_cake"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Happy birthday to you..."
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "770A9D6864A997E3"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6CDBCA7E1E0EB6BF"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "333AEF22FEFD7F55"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5CA3B75DBEDCAE1F"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+			]
+			title: "Happy birthday to you..."
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: ["Hone your skills even further, and prepare some truly gourmet dishes."]
+			hide: true
+			hide_dependency_lines: true
+			id: "38A46670A3A5E00D"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "2CE86ABC587E8E43"
+					item: "oceansdelight:cooked_stuffed_cod"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5801A70E950C1D9E"
+					item: "oceansdelight:honey_fried_kelp"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "14940A300B312264"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "63039796F85C80FA"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+			]
+			title: "Japanese gourmet"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Carbohydrates are universally loved."
+				"Craft every single kind of sandwich, and"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "5280B06D8A6BEA08"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Subway's employee of the month"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "27A2D6816F4B6059"
+					item: "culturaldelights:mutton_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1B0A529923574121"
+					item: "expandeddelight:cheese_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "4247467F2C807E8D"
+					item: "expandeddelight:peanut_butter_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "592ED6AB34FC3D9E"
+					item: "expandeddelight:peanut_butter_honey_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0107FFACE71D13CE"
+					item: "expandeddelight:sweet_berry_jelly_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3B269AD4D9949271"
+					item: "expandeddelight:glow_berry_jelly_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5376E490FAE2D68A"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "01F2B2D1D37DC8C4"
+					item: "farmersdelight:chicken_sandwich"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "19844E8A19B79CC7"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+			]
+			title: "bread :thumbsup:"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: ["Craft a variety of salads, and get three &chealth apples&r, each one giving you &dregen II&r for 1:40 mins."]
+			hide: true
+			hide_dependency_lines: true
+			id: "62D713287507D61F"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "651DBAF29895ACC6"
+				item: "more_apples:healthapple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "A well-made salad is tastier than McDonalds"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "1D9489A97BDF291F"
+					item: "culturaldelights:hearty_salad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "378CAF45903BFC60"
+					item: "expandeddelight:peanut_salad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "244135A0447641AD"
+					item: "expandeddelight:sweet_potato_salad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "31115C39E58F3AAA"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "32D5DE93AA7B07AC"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7028061499EA7ACE"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7F7AC801EB069909"
+					item: "oceansdelight:seagrass_salad"
+					type: "item"
+				}
+			]
+			title: "Healthy diet"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Cook some classic Japanese foods, and become an authentic &oItamae.&r*"
+				""
+				"&7&o* = An itamae (板前, a cook, chef [1]) is a cook in a Japanese kitchen or a chef of a large restaurant.&r&r"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "536C4888D4F3F89A"
+			optional: true
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "4D8DE9A0A4337A48"
+					item: "culturaldelights:midori_roll_slice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "7B452FC95A1451C1"
+					item: "culturaldelights:chicken_roll_slice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2D267A03744E889E"
+					item: "culturaldelights:tropical_roll"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "046CD0BCF236A86B"
+					item: "culturaldelights:egg_roll"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "13D878A42B7EA2E2"
+					item: "culturaldelights:calamari_roll"
+					type: "item"
+				}
+			]
+			title: "Classic Japanese W's"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Cook some sweet stuff, and become a pastrymaker."
+				""
+				"Submit your products here, and I'll give you a bunch of sugar."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "529B38C3411EB1C3"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "7BF3B730A3DAA098"
+				item: "compress_it:jar_of_sugar"
+				type: "item"
+			}]
+			subtitle: "Sweet-maker"
+			tasks: [
+				{
+					count: 4L
+					id: "357DA04C94C3F780"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D7339501334B0A5"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "253593D0E8AFD8E6"
+					item: "expandeddelight:sweet_berry_jelly"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B5BE8147E8F005A"
+					item: "expandeddelight:glow_berry_jelly"
+					type: "item"
+				}
+			]
+			title: "Patissier"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22A1CDE3125E4D11"]
+			icon: "frostiful:frozen_torch"
+			id: "1DFECCEB124B4E0E"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "bing chilling"
+			tasks: [{
+				id: "1B0FDC8FD72EC092"
+				type: "checkmark"
+			}]
+			title: "Temperature"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DFECCEB124B4E0E"]
+			hide: true
+			id: "5D12366AC334C798"
+			tasks: [
+				{
+					id: "37E53965C16F2550"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "6DAED9E98BD5395C"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "778FDA7C08FE01BB"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "051D6A6AD7DB428B"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Warm and cozy"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"73DCA270BEF2070C"
+				"4DEA54335FA335FD"
+				"7F9C8B666D7283DC"
+				"62D713287507D61F"
+				"536C4888D4F3F89A"
+				"38A46670A3A5E00D"
+				"3C6AF938D2209068"
+				"2A899BA38F842389"
+				"71ED011B16440D9A"
+				"5280B06D8A6BEA08"
+				"20F8A92D115E708E"
+				"529B38C3411EB1C3"
+				"73DCA270BEF2070C"
+				"7A8615915E81DF4F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"When I was thinking this quest book, I came across the Farmer Delight mod, and all its addons, and then I thought that it would be nice to pay attention to these mods."
+				""
+				"Gather ingredients, build a good kitchen and cook some culinary masterpieces. Sounds like fun."
+				""
+				"Complete all the quests, and I'll reward you with"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B7016FAE74FAF42"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "chef"
+			title: "Chef"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Cook some juice, and present it to me."
+				""
+				"I'll reward you with some premium juice."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7A8615915E81DF4F"
+			rewards: [
+				{
+					count: 4
+					id: "0C6394E9E01E10D5"
+					item: "vinery:red_grapejuice_wine_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2587292F38C1BDB2"
+					item: "vinery:white_grapejuice_wine_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Juice overlord"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "49780731DC2C1ECA"
+					item: "expandeddelight:apple_juice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "29C4E43AB767872D"
+					item: "expandeddelight:sweet_berry_juice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "571084235D6F653D"
+					item: "expandeddelight:glow_berry_juice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "54F801FA7CB513B3"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "5CB38255F317A692"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "1B85570AE776FE25"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+			]
+			title: "Juicer"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73DCA270BEF2070C"]
+			description: [
+				"Craft that farmer's straw outfit, and submit it here."
+				""
+				"Don't worry, I won't take it away from you, I'll enchant half of it, since the hat and boots have some useful QOL enchantments that will make your farming life a bit more enjoyable. "
+			]
+			hide: true
+			id: "62CA782C0F083C8E"
+			rewards: [
+				{
+					id: "735347A96A06D530"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "enchancement:assimilation"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22B522EAA7D0A266"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5829BD963B3A47E1"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC724FB1470381A"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "enchancement:buoy"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Sheesh"
+			tasks: [
+				{
+					consume_items: true
+					id: "78DDB790ED6402A8"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4B9F01A4DE39D5E9"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_apron"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1C04C2E043B3168A"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "64AC4E38171E0C15"
+					item: {
+						Count: 1b
+						id: "vinery:vinemaker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Farmer's drip"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC43A74EB3DD88B"]
+			hide: true
+			id: "6DF0615E2A380689"
+			shape: "circle"
+			size: 1.13d
+			tasks: [{
+				id: "01A1D984759B1ABB"
+				item: "disenchanter:disenchanter"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -4.52d
+			y: 4.52d
+		}
+		{
+			dependencies: ["5BC43A74EB3DD88B"]
+			description: ["Bookshelves are now irrelevant for the enchantment table. Their only purpose is to store any kind of books inside them, so you can use them to shelf your enchanted books, book and quills, or just regular books."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "xp_storage:xp_book"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E1BECA76B87E29D"
+			shape: "circle"
+			size: 1.13d
+			subtitle: "Some things you should know"
+			title: "XP and bookshelves"
+			x: -4.52d
+			y: 3.3899999999999997d
+		}
+		{
+			dependencies: [
+				"3C6AF938D2209068"
+				"71ED011B16440D9A"
+			]
+			description: [
+				"Collect &nevery&r &nsingle&r &npie&r. &lIn the whole game.&r"
+				""
+				"As this quest is pretty hard, it's not necessary to unlock anything. You can skip it if you want, or if you don't... You'll be given a very special reward..."
+				""
+				"&o&7Note: This quest won't consume your pies. It only requires you to craft them. After that, you can enjoy them for yourself, or share them with your friends if you're playing multi."
+			]
+			hide: true
+			id: "4C9A20E858B93941"
+			shape: "diamond"
+			subtitle: "Culinarily unbeatable"
+			tasks: [
+				{
+					id: "6A26CD426425EB8C"
+					item: "minecraft:pumpkin_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4C5576513961E849"
+					item: "additionaladditions:berry_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0B0DEEF3E9D7ACC7"
+					item: "betterend:cave_pumpkin_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0DC0991D3D6E6F28"
+					item: "byg:green_apple_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "3DE1ED53AD45F62E"
+					item: "byg:crimson_berry_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "578CDC0D6A7ECBAF"
+					item: "byg:nightshade_berry_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "30C63A6F9CD5C0F6"
+					item: "byg:blueberry_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "33AFC3E6DEEAEA87"
+					item: "casualness_delight:stargazy_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "550B30AE1F23A53B"
+					item: "farmersdelight:apple_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "334BC0927BC02ECA"
+					item: "farmersdelight:chocolate_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "65EE4B4D5430ADF4"
+					item: "farmersdelight:shepherds_pie_block"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "350F78AD9E8A8BB2"
+					item: "nutritious_feast:apple_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "6E77A3CA25A46A9C"
+					item: "nutritious_feast:sweet_berry_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "190D757EEC72ADEA"
+					item: "nutritious_feast:glow_berry_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4CEEF23659C8EB0B"
+					item: "nutritious_feast:carrot_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0C6D4BFE3BF8E2B2"
+					item: "nutritious_feast:chorus_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0397A1422EDCE827"
+					item: "nutritious_feast:illuminating_pie"
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Pie Master"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B6A661CF49910BF"]
+			description: ["With this &osomewhat&r expensive item, you'll be able to sleep anywhere, without resetting your spawnpoint, and without resetting your master bed."]
+			hide: true
+			id: "5E365F04F7CC7BFB"
+			shape: "octagon"
+			subtitle: "Sleepover! yay!"
+			tasks: [{
+				id: "75ABE770894E0736"
+				item: "sleep_tight:night_bag"
+				type: "item"
+			}]
+			title: "Sleeping bag"
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B6A661CF49910BF"]
+			description: [
+				"If you ever want to skip daytime for some reason, now you can. You'll just need a hammock."
+				""
+				"You can place it between two blocks, on a gap of 3 blocks, or between two fences, on a gap of two blocks."
+				""
+				""
+				"&o&7Note: You can't have a nightmare on a hammock."
+			]
+			hide: true
+			id: "52892DD9536227DF"
+			shape: "rsquare"
+			tasks: [{
+				id: "0D8B80C5507FDA9C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "sleep_tight:hammocks"
+					}
+				}
+				title: "Any #sleep_tight:hammocks"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B6A661CF49910BF"]
+			description: [
+				"Yes, as you heard. There are bedbugs."
+				""
+				"They have a small chance of spawning in a radius of 10 blocks minimum, and 20 maximum, at the moment you go to sleep. If they are able to reach your bed, they will, and they'll infest it."
+				""
+				"To prevent this, you need to place your bed strategically. Take in mind that bed bugs can claim walls, just like spiders can, and they can go through doors."
+			]
+			hide: true
+			id: "79A4DBEDEDC97CD9"
+			rewards: [{
+				id: "6124A24AA2015C1D"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Don't let the bed bugs bite"
+			tasks: [{
+				id: "7E7D64B6D33F987D"
+				item: "sleep_tight:bedbug_eggs"
+				type: "item"
+			}]
+			title: "Bedbugs...?"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B6A661CF49910BF"]
+			description: [
+				"There's also a small chance to have a nightmare whenever you sleep. The more you go without having one, the more this possibility increases, so you'll eventually have one, sooner or later."
+				""
+				"A nightmare will prevent you from sleeping again, giving you an insomnia cooldown."
+				""
+				"To prevent this, you'll have to place this humidifier thing close to your bed, and it'll protect you from those."
+				""
+				"&7&oNote: There also are encounters, an old feature in Minecraft where a mob will spawn close to you if the area around your bed is unlit. Remember to have a well-lighted area to prevent this."
+			]
+			hide: true
+			id: "1F1E9D7AFBC00439"
+			rewards: [{
+				id: "1C1032CACB1BB643"
+				item: "sleep_tight:moon_banner_pattern"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Like a humidifier, but magic-based"
+			tasks: [{
+				id: "59FECA40D5DE593F"
+				item: "sleep_tight:dreamer_essence"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Dreamer's essence"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B6A661CF49910BF"]
+			description: [
+				"If you sleep for 7 days straight on the same bed, this will become your master bed/home bed."
+				""
+				"The more you sleep in this bed afterwards, the more benefits it'll give you; health healing, invigorating effect (temporarily increasing your XP gain), and removal of harmful effects, among other things."
+				""
+				"This is the reason why you shouldn't go around sleeping in random beds whenever you can, and stick to your home bed."
+			]
+			hide: true
+			icon: "handcrafted:mangrove_fancy_bed"
+			id: "6DB8EB08CC9A7DE7"
+			shape: "hexagon"
+			subtitle: "home sweet home"
+			tasks: [{
+				id: "4F0925719D859964"
+				type: "checkmark"
+			}]
+			title: "Master bed"
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DFECCEB124B4E0E"]
+			description: [
+				"Anything that is warm, will make your warm."
+				""
+				"Craft some of these fire sources, and I'll gift you a warming potion."
+			]
+			hide: true
+			id: "69C3E402869AB74C"
+			rewards: [{
+				id: "7574837F6B652057"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "mysticpotions:long_warming"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Pyromaniac"
+			tasks: [
+				{
+					count: 64L
+					id: "5DAA45BE363D3E98"
+					item: "minecraft:torch"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "58BDE53CD7F06725"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "35E13D3CB9794516"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "Fire sources"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D12366AC334C798"]
+			description: [
+				"With this armor, you'll have the same level of protection as iron, plus the cold protection."
+				""
+				"Now you won't have to sacrifice as much protection if you wanted to stay warm."
+			]
+			hide: true
+			id: "2308735D233DEC16"
+			tasks: [
+				{
+					id: "35B11CA39DB5EEC4"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_padded_chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04B4460CF393B891"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_padded_chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3760ABD9D363C3BF"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_padded_chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3181051A250DCFD0"
+					item: {
+						Count: 1b
+						id: "frostiful:fur_padded_chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Extra protection"
+			x: -8.5d
+			y: -3.5d
 		}
 	]
 	title: "Beginnings"

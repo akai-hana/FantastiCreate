@@ -6,28 +6,135 @@
 	id: "4DD319D4F149B640"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"Welcome to FantastiCreate!"
-			""
-			"I, the quest book, will guide you through all that this modpack has to offer, from tips and tricks to survive, to rewarded quests to provide a questline for the most interesting mods."
-			""
-			"To celebrate it, have a beer! (or some aloe vera juice, if you're underage.)"
-		]
-		id: "4A705CD78B0CDA6F"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "3C1F90A70C70B103"
-			table_id: 1537983043917597454L
-			type: "choice"
-		}]
-		tasks: [{
-			id: "02A792E9013FC925"
-			title: "Welcome to FantastiCreate!"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: -3.0d
-	}]
+	quests: [
+		{
+			description: [
+				"Welcome to &cF&r&6a&r&en&r&at&r&2a&r&9s&r&5t&r&di&r&6Create&r&4!&r"
+				""
+				"&oHere I am, sitting on a bench, watching the sun set while writing a quest book. How relaxing.&r"
+				""
+				""
+				"Anyway... In here, I will guide you through all that this modpack has to offer, from tips and tricks to survive, to rewarded quests, to provide some sense of direction for the most interesting mods."
+				""
+				"To celebrate it, have a beer! (&oor some aloe vera juice, if you're underage.&r)"
+			]
+			hide_dependency_lines: false
+			icon: "supplementaries:sconce"
+			id: "4A705CD78B0CDA6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C1F90A70C70B103"
+				table_id: 1537983043917597454L
+				type: "choice"
+			}]
+			size: 2.5d
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "5565AABF2B516C56"
+				type: "advancement"
+			}]
+			title: "&lWelcome to&r &c&nF&r&6&na&r&e&nn&r&a&nt&r&2&na&r&9&ns&r&5&nt&r&d&ni&r&6&nCreate&r&4&n!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A705CD78B0CDA6F"]
+			description: [
+				"&lWhen you are offered a free item, you will always have a choice of declining it.&r"
+				""
+				"Ignore the diamond icon, that's what Minecraft uses to represent air on the quest book, for some reason."
+			]
+			hide: true
+			icon: "minecraft:diamond"
+			id: "67D0032521D7E9FA"
+			subtitle: "Diamonds?"
+			tasks: [{
+				id: "2A8CB5CDB50472DD"
+				type: "checkmark"
+			}]
+			title: "Air?"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A705CD78B0CDA6F"]
+			dependency_requirement: "one_completed"
+			description: [
+				"We have a &cluvly&r community here. Tons of potential friends, yk?"
+				"We can also help you on anything that you may want to ask staff about, whether it be doubts, bug reports or anything in between."
+				""
+				"Here's an invite link: &9https://discord.gg/kGcZbAFpXq&r"
+				"Otherwise, check Curseforge or our Github repo, because you can't click links in the questbook."
+			]
+			hide: true
+			icon: "minecraft:creeper_banner_pattern"
+			id: "2A9A8532D4997152"
+			subtitle: "don't be shy, cmon"
+			tasks: [{
+				id: "5F316B70B3C9780B"
+				type: "checkmark"
+			}]
+			title: "Join our Discord!"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A705CD78B0CDA6F"]
+			description: [
+				"This quest book has been designed to play on single-player, so if you want to unify your quest-line with your other teammates, in order to progress together, you will have to create a party."
+				""
+				"It is pretty simple, just enter the command"
+				"&8/ftbteams party create &o[name of your preference]&r&r to create a party, or"
+				"&8/ftbteams party join &o[party name]&r&r"
+				"to join an already existing one."
+				"If you want to claim the chunk you're standing on &las a party&r, you can do"
+				"&8/ftbchunks claim&r"
+				"and if you want to claim multiple chunks, you can press the FTBChunks &oOpen Map&r keybind (by default N)."
+				"Don't mistake the FTB Chunks map with the Xaero's Minimap map, as you also have the ability to claim chunks with Xaero's, but if you do that, it won't take into account the party you're in."
+				""
+				"For more advanced functionality, you can see refer to the respective mod's wiki, since I do not want to make this quest's description even longer than it is."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39A2D571AAE28F18"
+			subtitle: "Create a FTB party and invite them!"
+			tasks: [{
+				id: "440395E95A999E55"
+				type: "checkmark"
+			}]
+			title: "Are you playing together with other people?"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A705CD78B0CDA6F"]
+			description: [
+				"Here are some things you should probably know."
+				""
+				"- Items are now unbreakable (check &7Beginnings > First day on Earth > Enchantments are now reworked&r for more info)."
+				"- You can crouch using the Left Alt key, by default."
+				"- You're now thirsty (also check &7Beginnings&r for more info)."
+				"- You can check the crafting of any item by hovering your cursor over it, and pressing R."
+			]
+			hide: true
+			id: "2E2FC6EFD42D512F"
+			subtitle: "cmon, that's basic knowledge"
+			tasks: [{
+				id: "1FE898295F931EC8"
+				item: "minecraft:knowledge_book"
+				type: "item"
+			}]
+			title: "Info you should know"
+			x: 0.0d
+			y: -0.5d
+		}
+	]
 	title: "Introduction"
 }

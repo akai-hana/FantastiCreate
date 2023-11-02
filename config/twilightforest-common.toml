@@ -29,7 +29,6 @@ skull_candles = false
 	portalForNewPlayer = false
 	#If true, players spawning for the first time will spawn in the Twilight Forest.
 	newPlayersSpawnInTF = false
-
 #Settings for all things related to the uncrafting table.
 ["Uncrafting Table"]
 	#Setting this to true will make it so you dont have to pay XP to repair and recraft stuff in the uncrafting table. This wont affect uncrafting cost.
@@ -55,7 +54,6 @@ skull_candles = false
 	disableUncraftingRecipes = ["twilightforest:giant_log_to_oak_planks"]
 	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
 	disableUncrafting = false
-
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
 	#If true, prevents the Minewood Core from functioning.
@@ -78,7 +76,6 @@ skull_candles = false
 	sortingCoreRange = 16
 	#If true, prevents the Sortingwood Core from functioning.
 	disableSortingCore = false
-
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]
 	#The amount of ticks after raising a shield that makes it OK to parry a projectile.
@@ -86,4 +83,3 @@ skull_candles = false
 	shieldParryTicksArrow = 40
 	#Set to true to parry non-Twilight projectiles.
 	parryNonTwilightAttacks = false
-

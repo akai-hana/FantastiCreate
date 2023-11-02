@@ -1,0 +1,18 @@
+{
+	id: "10F54641DB10CBE2"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+		}
+		{ }
+	]
+	title: "fire resistance offer"
+}

@@ -1,0 +1,10 @@
+{
+	id: "22BA78C4DB6502B5"
+	loot_size: 2
+	order_index: 6
+	rewards: [
+		{ item: "minecraft:cookie", weight: 0.5f }
+		{ }
+	]
+	title: "coki"
+}

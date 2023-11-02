@@ -24,7 +24,7 @@
     "min_spawn_radius": 10,
     "max_allowed_light_level": 15,
     "tries": 20,
-    "prevented_by_dream_essence": false,
+    "prevented_by_dream_essence": true,
     "only_when_in_home_bed": false
   },
   "sleep_cooldown": {
@@ -36,7 +36,7 @@
     "active_for": "HOME_BED",
     "healing": "MAX",
     "effect_clearing": "MAX",
-    "effect_clearing_types": "ALL",
+    "effect_clearing_types": "HARMFUL",
     "effects_on_wake_up": [
       {
         "intensity_per_level": 0.075,
@@ -61,7 +61,7 @@
     "xp_cost": 0
   },
   "home_bed": {
-    "required_nights": 8,
+    "required_nights": 7,
     "invigorated_effect_xp": 0.1,
     "max_level_cap": 100
   },

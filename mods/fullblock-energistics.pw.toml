@@ -1,0 +1,13 @@
+name = "Fullblock Energistics"
+filename = "fulleng-fabric-1.6-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e179424c4e1af23b3471bcf5305ffb4052e0c149"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4733617
+project-id = 776293

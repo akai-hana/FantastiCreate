@@ -1,4 +1,3 @@
-
 [display]
 	#Ignore rarity of items and always use color specified in "Text Color" instead.
 	ignore_rarity = false
@@ -32,7 +31,6 @@
 	#Offset on y-axis from screen border.
 	#Range: > 0
 	offset_y = 4
-
 [general]
 	#Show the value of experience points collected instead of the amount of individual orbs.
 	experience_value = true
@@ -48,7 +46,6 @@
 	force_client_only = false
 	#Show shot arrows the player has collected in the pick-up notifications.
 	include_arrows = true
-
 [behavior]
 	#Amount of ticks it takes for an entry to move out of the screen. Value cannot be larger than "Display Time".
 	#Range: > 0
@@ -62,4 +59,3 @@
 	display_time = 80
 	#Make outdated entries slowly move out of the screen instead of disappearing in place.
 	move_out_of_screen = true
-

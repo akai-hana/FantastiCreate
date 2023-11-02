@@ -3,10 +3,10 @@
   "xOffset": 0,
   "sneakXOffset": 0,
   "sitXOffset": 0,
-  "renderStuckFeatures": false,
+  "renderStuckFeatures": true,
   "vanillaHands": false,
   "doubleHands": false,
-  "forceActive": true,
+  "forceActive": false,
   "autoVanillaHands": [
     "twilightforest:filled_ore_map",
     "twilightforest:filled_magic_map",

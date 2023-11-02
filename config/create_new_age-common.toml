@@ -29,4 +29,3 @@ ReactorRodHeatLoss = 25.0
 #Multiplier for how much heat solar panels output.
 #Range: 0.0 ~ 1.7976931348623157E308
 solarPanelHeatMultiplier = 1.0
-

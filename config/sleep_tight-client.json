@@ -19,6 +19,6 @@
     "show_insomnia_timer": true,
     "crossair_insomnia_cooldown": true,
     "show_time_when_sleeping": true,
-    "sleep_immediately": true
+    "sleep_immediately": false
   }
 }

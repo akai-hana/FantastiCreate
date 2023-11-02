@@ -133,8 +133,8 @@
 		// Player gets slowness effect, if carries too many backpacks in inventory
 		"tooManyBackpacksSlowness": true,
 		// Maximum number of backpacks, which can be carried in inventory, without slowness effect
-		"maxNumberOfBackpacks": 3,
-		"slownessPerExcessedBackpack": 1
+		"maxNumberOfBackpacks": 2,
+		"slownessPerExcessedBackpack": 2
 	},
 	"client": {
 		// Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn

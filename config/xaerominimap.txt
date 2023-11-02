@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:0
+ignoreUpdate:367
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -49,7 +49,7 @@ terrainDepth:true
 terrainSlopes:2
 mainEntityAs:0
 blockTransparency:true
-waypointOpacityIngame:80
+waypointOpacityIngame:75
 waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true

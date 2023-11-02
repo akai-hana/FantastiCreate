@@ -24,4 +24,3 @@ cakeBakeryGenerationWeight = 1
 #The radius in blocks at which the glowstone cake will effect mobs
 #Range: 0 ~ 100
 glowstoneCakeEffectRadius = 20
-

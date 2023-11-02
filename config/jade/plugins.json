@@ -1,4 +1,7 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
@@ -48,6 +51,20 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "fulleng": {
+    "storage_monitor": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
   },
@@ -64,5 +81,17 @@
   },
   "additionz": {
     "age_info": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
   }
 }

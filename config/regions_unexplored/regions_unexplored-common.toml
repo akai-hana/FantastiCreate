@@ -1,4 +1,3 @@
-
 #Config for Regions Unexplored!
 [region_weights]
 	#Sets Terrablender region weight for the primary region.
@@ -10,7 +9,6 @@
 	#Sets Terrablender region weight for the secondary region.
 	#Range: 0 ~ 2147483646
 	secondary_region_weight = 8
-
 [biome_toggles]
 	toggle_fungal_fen = true
 	toggle_grassy_beach = true
@@ -85,11 +83,9 @@
 	toggle_lupine_plains = true
 	toggle_golden_boreal_forest = true
 	toggle_icy_heights = true
-
 [worldgen_options]
 	#surface_rules
 	toggle_custom_dirt = true
-
 [block_color_options]
 	#Sets Eucalyptus colour saturation.
 	#Range: 0.0 ~ 1.0
@@ -100,4 +96,3 @@
 	#Sets Eucalyptus colour transition size. Bigger number = bigger distance between colours.
 	#Range: 0.0 ~ 200.0
 	eucalyptus_transition_size = 25.0
-

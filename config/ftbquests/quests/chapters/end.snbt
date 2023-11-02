@@ -6,6 +6,429 @@
 	id: "2BCC9AB60081DC25"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"348DFB8FDDB8DE18"
+				"42C82F7AEA50F794"
+				"077DA73A4840F2D4"
+				"1D24E713755BBBA8"
+				"32A2D11523BEC911"
+				"7AB7BF8461E0C3BA"
+				"5C27FDF43D48F2FE"
+				"14E15B8BC53083A5"
+				"70828A287FA2FCDF"
+				"499BDC670696D0DA"
+				"1361B6159394B4B8"
+				"6F02D8240728D567"
+				"612B694E1CAE7E6F"
+				"2F8329C115683B9D"
+				"1A7D9CCD2EFC5230"
+				"7A9EAD78645F5FB9"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"If you're reading this, it means you already possess the eyes necessary to enter the End."
+				""
+				"&mI'm proud of you son. I've watched you grow since the beginning, and it has been a nice, long journey to reach this point.&r"
+				""
+				"Make sure to have basic provisions before entering. You don't want to screw this up."
+			]
+			hide: true
+			hide_details_until_startable: true
+			icon: "minecraft:end_portal_frame"
+			id: "1DCA1F7E9E5A1932"
+			min_required_dependencies: 12
+			progression_mode: "flexible"
+			shape: "diamond"
+			size: 2.75d
+			subtitle: "Wow..."
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "06A7BFB22B31F4A6"
+					type: "dimension"
+				}
+				{
+					id: "32FCAD48C2699549"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "3E984F4B390094E5"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enter the End"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Legends say this eye once belonged to the great sandworm king."
+				""
+				"You will be able to find this eye in Desert Pyramids, so wish you good luck and RNGesus bless you (although its not super rare, so don't worry about not finding it)."
+			]
+			id: "6F02D8240728D567"
+			tasks: [{
+				id: "5FC0647AF00A8A9D"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"It was lost by a demon in the Great Battle between the Aether and the Nether."
+				""
+				"You can find it in Nether Fortresses. Quick and easy, this is one of the most convenient-to-find eyes."
+			]
+			id: "1361B6159394B4B8"
+			tasks: [{
+				id: "48AA6FD071E70BD4"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"One of the last artifacts left behind by the ancient Iceologers. Current Iceologers have tried to find it, with no success."
+				""
+				"You can find these on igloos, so if you happen to be near a cold biome, or outright find an igloo, be sure to check the loot inside it."
+			]
+			id: "42C82F7AEA50F794"
+			tasks: [{
+				id: "473A926F21D25387"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"This eye is believed to have given our ancestors the knowledge of Redstone."
+				""
+				"You can find these in Jungle Pyramids. These pyramids are kinda rare though, so I wouldn't advise searching for this eye unless you just happen to stumble on a jungle pyramid. "
+			]
+			id: "612B694E1CAE7E6F"
+			tasks: [{
+				id: "2C6AFA3F7E8195D1"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Pirates say it gave sight to the legendary Black Pearl."
+				""
+				"These are hidden in Buried Chests, so if you ever get a map leading to one of these, it may end up containing a black eye."
+			]
+			id: "348DFB8FDDB8DE18"
+			tasks: [{
+				id: "6FE888EA5DF5E1AD"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This eye channels the mana of the Evokers."
+				""
+				"It is dropped by Evokers. Watch out if you try to hunt them, they're pretty tough."
+			]
+			id: "499BDC670696D0DA"
+			tasks: [{
+				id: "6E9ABA3DAE920471"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"It is told that it was forged by the first villager blacksmiths for a royalty science investigation."
+				""
+				"Found in Mineshafts, it may have been stolen by some miner that saw the opportunity, and then lost it while on a mining trip."
+			]
+			id: "70828A287FA2FCDF"
+			tasks: [{
+				id: "7842F8744926266B"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The eye of a greedy king long gone, withered by solitude. Legend says it will bring infinite fortune to its owner."
+				""
+				"Now located on Pillager Outposts, under the protection of the pillagers."
+			]
+			id: "077DA73A4840F2D4"
+			tasks: [{
+				id: "620D679A01CD4594"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Has witnessed destruction. Maybe it also witnessed your stuff disappear."
+				""
+				"Dropped by The Wither, it is thought to channel the power that emanates from the nether star, the Wither's core."
+			]
+			id: "7A9EAD78645F5FB9"
+			tasks: [{
+				id: "6137CD6A9BB4E94D"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"It's power is thought to convert the ancient warriors who drowned in the sea, into cursed beings of the depths, better known as drowneds."
+				""
+				"Similar to the Wither eye, you can get this eye by defeating the Elder Guardian."
+			]
+			id: "14E15B8BC53083A5"
+			tasks: [{
+				id: "04593B749598EFDF"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"This eye has seen the beginnings and development of alchemy as we know it today."
+				""
+				"Since this eye is long gone, you can craft a replica of it with an ender eye and a witch pupil."
+			]
+			id: "1A7D9CCD2EFC5230"
+			tasks: [{
+				id: "1A530EEB7EBCEF96"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"A powerful yet taboo artifact; the Piglins have treasured it alongside their precious gold."
+				""
+				"Found in Bastions treasure chests. Beware of the piglin brutes, they're... Brutal."
+			]
+			id: "32A2D11523BEC911"
+			tasks: [{
+				id: "60503643EF209DF4"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Those who followed this eye were never seen again; rumors say they stayed to live in the great city of Atlantis, but the truth is far less happy..."
+				""
+				"Craft it using aquatic items. Check REI for more details."
+			]
+			id: "5C27FDF43D48F2FE"
+			tasks: [{
+				id: "6A17E6982647014A"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"This eye belongs to a specific owner, and therefore, no matter the circumstances, it will always find its way to them when said owner's desire is great enough."
+				""
+				"It is available to buy from a master cleric."
+			]
+			id: "7AB7BF8461E0C3BA"
+			tasks: [{
+				id: "0812EAC6452614C1"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Remembrance of the past lives of those who live in death, representing those who have seen inimaginable suffering."
+				""
+				"Craft it using an Undead Soul, check on REI."
+			]
+			id: "2F8329C115683B9D"
+			tasks: [{
+				id: "6A4C6E3518FB35CB"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Records of this eye were long lost. No one knows where does it come from."
+				""
+				"You have a small chance to get it when enchanting anything. "
+			]
+			id: "1D24E713755BBBA8"
+			tasks: [{
+				id: "64812E7413D69337"
+				item: "endrem:cryptic_eye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The new End is stunning. It is as beautiful as the Nether is, if not more."
+				"It also features new and improved structures, mobs and boss altars to go through all sorts of adventures over there."
+				""
+				"Also, the elytra is now suuper fun to use. It has been reworked to fly on a much harder, yet fun way. You'll understand what I'm trying to say when you get one."
+			]
+			icon: "minecraft:ender_pearl"
+			id: "2C8F31F93D3D5148"
+			size: 1.5d
+			subtitle: "Wallpaper-quality material in there."
+			tasks: [{
+				id: "61330CFFACD9E8E4"
+				type: "checkmark"
+			}]
+			title: "The new and improved End!"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"However, the End is now much harder to access, due to how the new End portal works."
+				""
+				"To activate a portal, you must collect 12 out of the 16 unique eyes, scattered all over Minecraft, and obtainable in different, unique ways. You cannot re-use any eye, so you will have to go on a quest to collect all of them."
+				""
+				"At the right of this quest I wrote how to get every single one of them, to help you out a bit. Good luck in your journey."
+			]
+			icon: "minecraft:ender_eye"
+			id: "5C6FC3EE09D68AA7"
+			size: 1.5d
+			subtitle: "It won't be as easy to speedrun."
+			tasks: [{
+				id: "0CED313FDC5EA87B"
+				type: "checkmark"
+			}]
+			title: "End portal rework"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DCA1F7E9E5A1932"]
+			description: [
+				"That was spectacular. GGWP!!!"
+				""
+				"Here, have this piston \\& lever to get the ender egg."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:dragon_head"
+			id: "2BC0301BA9754558"
+			invisible: true
+			rewards: [
+				{
+					id: "060F361E10825125"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "6D6E56389BF79C1B"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "The Dragonborn"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0731B9507F78618F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Dragon"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BC0301BA9754558"]
+			description: [
+				"Having wings has probably been one of the oldest dreams of mankind."
+				""
+				"Congratulations on your first pair of elytras. These don't need fireworks to work, but they are useful to boost your speed when you need it."
+			]
+			id: "621A1FC503D4FCB1"
+			rewards: [{
+				id: "2DD5B818D84F4827"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "fly, fly high"
+			tasks: [{
+				id: "538E89C16F56B619"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Elytra!"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["Craft yourself a void totem. It will prevent your death in case you somehow fall in the void."]
+			id: "49CE03E5D6C50481"
+			subtitle: "safety net"
+			tasks: [{
+				id: "39FDC71F8FEFE645"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			title: "Totem of the Void"
+			x: 1.5d
+			y: 6.5d
+		}
+	]
 	title: "End"
 }

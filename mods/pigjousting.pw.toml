@@ -1,0 +1,13 @@
+name = "PigJousting"
+filename = "pigjousting-1.0.0+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f783d19a84dbab7189e6419df83788b524744cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4371387
+project-id = 819604

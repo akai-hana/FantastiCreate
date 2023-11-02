@@ -1007,6 +1007,10 @@
     "regions_unexplored:joshua_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "beachparty:palm_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

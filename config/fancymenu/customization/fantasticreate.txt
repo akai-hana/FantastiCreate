@@ -30,21 +30,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = 9
-  action = movebutton
-  y = 7
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 107
-  action = resizebutton
-  height = 20
-}
-
-customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
   x = -103
@@ -54,7 +39,7 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  width = 57
+  width = 58
   action = resizebutton
   height = 20
 }
@@ -67,32 +52,94 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
-  x = 68
+  x = 90
   action = movebutton
-  y = 60
+  y = 59
 }
 
 customization {
   identifier = %id=628394%
   orientation = mid-centered
-  x = 96
+  x = -130
   action = movebutton
-  y = 60
+  y = 49
 }
 
 customization {
-  identifier = %id=628394%
-  width = 20
+  identifier = %id=604334%
+  orientation = mid-centered
+  x = 123
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = 58
+  action = movebutton
+  y = 34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 58
   action = resizebutton
-  height = 19
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -28
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 69
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -97
+  action = movebutton
+  y = 58
+}
+
+customization {
+  identifier = %id=604358%
+  orientation = mid-centered
+  x = -130
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 11
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 105
+  action = resizebutton
+  height = 20
 }
 
 customization {
   identifier = %id=376310%
   orientation = mid-centered
-  x = -103
+  x = 123
   action = movebutton
-  y = 59
+  y = 49
 }
 
 customization {
@@ -111,39 +158,9 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  orientation = mid-centered
-  x = -39
-  action = movebutton
-  y = 34
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  width = 89
-  action = resizebutton
-  height = 18
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-centered
-  x = 59
-  action = movebutton
-  y = 33
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 57
-  action = resizebutton
-  height = 20
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -45
+  x = -46
   action = movebutton
   y = 59
 }
@@ -153,14 +170,6 @@ customization {
   width = 105
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = -74
-  action = movebutton
-  y = 60
 }
 
 customization {
@@ -200,12 +209,12 @@ customization {
   orientation = mid-centered
   splash_color = #ffff00
   hidden = false
-  x = 190
+  x = 216
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = a60f9126-2daf-44da-bf13-b63b44b1f0fc1696787531496
-  y = -39
+  y = -58
   height = 30
 }
 

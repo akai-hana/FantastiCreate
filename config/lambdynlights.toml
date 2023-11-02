@@ -795,6 +795,8 @@ mode = "fancy"
 				moolip = true
 				harelequin_rabbit = true
 				bouldering_zombie = true
+				ashen_cow = true
+				sunset_cow = true
 
 			[light_sources.settings.entities.hybrid-aquatic]
 				discus = true
@@ -875,6 +877,7 @@ mode = "fancy"
 				glow_jellyfish = true
 				starfish = true
 				hermitcrab = true
+				anglerfish = true
 
 			[light_sources.settings.entities.torchbowmod]
 				entitytorch = true
@@ -882,9 +885,13 @@ mode = "fancy"
 			[light_sources.settings.entities.species]
 				deepfish = true
 				limpet = true
+				birt = true
 
 			[light_sources.settings.entities.sprout]
 				bounce_bug = true
+
+			[light_sources.settings.entities.clutter]
+				seat = true
 
 		[light_sources.settings.block_entities]
 

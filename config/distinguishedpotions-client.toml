@@ -12,4 +12,3 @@ colored_simple_potions = true
 colored_potion_bottle_cork = true
 #Apply all changes to tipped arrows, too.
 apply_to_tipped_arrows = true
-

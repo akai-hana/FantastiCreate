@@ -83,9 +83,9 @@
   "tweaks": {
     "brewing_stand_colors": true,
     "crossbows_colors": true,
-    "clock_right_click": true,
+    "clock_right_click": false,
     "compass_right_click": false,
-    "placeable_books_glint": false,
+    "placeable_books_glint": true,
     "placeable_books_colors": [
       "brown",
       "orange",

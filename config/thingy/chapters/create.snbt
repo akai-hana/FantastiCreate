@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	id: "4134F65C7A3D4CE7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create"
+}

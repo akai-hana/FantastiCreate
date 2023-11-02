@@ -6,16 +6,167 @@
 	id: "3F2647C4C48DB015"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "1F5C5846D39212D9"
-		size: 2.5d
-		tasks: [{
-			dimension: "minecraft:the_nether"
-			id: "22FE9D2EC1A06775"
-			type: "dimension"
-		}]
-		x: -5.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			id: "1F5C5846D39212D9"
+			size: 2.5d
+			subtitle: "Entering The Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "22FE9D2EC1A06775"
+				type: "dimension"
+			}]
+			title: "The Nether"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F5C5846D39212D9"]
+			description: [
+				"Magma blocks, blazes and all sorts of new Nether mobs will eventually set you on fire, and this can last for up to minutes. Due to this, I'll offer you a free fire potion. You can accept it or decline it, as always."
+				""
+				"Also, you can eat raw magma cream for a quick fire resistance, but it doesn't last more than a couple seconds."
+			]
+			id: "6CDD0D04F6FFC223"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB386A3B5929CC7"
+				table_id: 1221960122563087330L
+				type: "choice"
+			}]
+			subtitle: "(Ow ouch it stings)"
+			tasks: [{
+				id: "084E253B9456FB85"
+				type: "checkmark"
+			}]
+			title: "Humans are flammable!"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CDD0D04F6FFC223"]
+			description: ["Since this modpack rebalances difficulty, potions are now basically a requirement to improve survivability rates. Remember to brew "]
+			id: "5B34CE64A06EF37B"
+			subtitle: "Ready to brew!"
+			tasks: [
+				{
+					id: "6451095438D4B3D7"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "7DE515E0DD7F1679"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "791958714B96F9C8"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "The Alchemist"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F5C5846D39212D9"]
+			description: ["You're very lucky, since looting isn't really a thing anymore."]
+			id: "0F833B617ED5A6A5"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Thank RNGesus for that one."
+			tasks: [{
+				id: "4C5E9C06E072E3A9"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "Your first skull!"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F833B617ED5A6A5"]
+			description: [
+				"Heyy, congrats on killing the Wither!"
+				"It was really buffed in this modpack, so I'm pretty amazed u beat it."
+				""
+				"Anyway, you can have a free diamond to power the beacon, which by the way, is pretty amazing-looking in this modpack. You will know what I'm talking about soon enough."
+			]
+			icon: "minecraft:nether_star"
+			id: "21116AD7F6F38E2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45785A2D869FDB93"
+				table_id: 7972157695141757122L
+				type: "choice"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "2105C716D5F2E543"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4B36AF88D1E0FD73"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Defeat the Nether King"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B34CE64A06EF37B"]
+			description: [
+				"Dave's Potioneering is a fantastic mod that revamps potions; potions stack, splash potions throw much faster, you can coat and use potion-based weapons and you can brew potions more efficiently."
+				""
+				"Since enchantments have been redone, and everything is way harder in general, potions are now almost necessary to have that extra layer of protection. Plus they're pretty convenient, too."
+				""
+				"Go ahead and craft the following items. As for the gauntlet, you will have to inject the potions on the potion injector, using lingering potions, so you will have to beat the Ender Dragon for dragon breath first. If you haven't done so already, you can just try to use the Compound Potion Brewer, it comes in pretty handy when you bulk-produce potions."
+			]
+			id: "0231ACFF12451637"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Potions haven't been so fun in... Never!"
+			tasks: [
+				{
+					id: "0EA82C1670B3A09B"
+					item: "davespotioneering:compound_brewing_stand"
+					type: "item"
+				}
+				{
+					id: "40246BDD52C9242C"
+					item: "davespotioneering:potioneer_gauntlet"
+					type: "item"
+				}
+				{
+					id: "2C789CF6956D87AF"
+					item: "davespotioneering:potion_injector"
+					type: "item"
+				}
+			]
+			title: "Dave's Potioneering"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21116AD7F6F38E2C"]
+			id: "3B069F5EF6036D7C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "63A22F8815FD8CB4"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+	]
 	title: "Nether"
 }

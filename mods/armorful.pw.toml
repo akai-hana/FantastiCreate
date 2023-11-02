@@ -1,0 +1,13 @@
+name = "Armorful"
+filename = "Armorful-2.0.2+WWA_COMPAT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6dbd6b7948910bf47a8ed18dc47b7ef1f5f59407"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4753630
+project-id = 693817

@@ -1,0 +1,17 @@
+{
+	id: "1384433228115EEC"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 16, item: "farmersdelight:oak_cabinet" }
+		{ count: 16, item: "farmersdelight:spruce_cabinet" }
+		{ count: 16, item: "farmersdelight:dark_oak_cabinet" }
+		{ count: 16, item: "farmersdelight:birch_cabinet" }
+		{ count: 16, item: "farmersdelight:jungle_cabinet" }
+		{ count: 16, item: "farmersdelight:acacia_cabinet" }
+		{ count: 16, item: "farmersdelight:mangrove_cabinet" }
+		{ count: 16, item: "farmersdelight:crimson_cabinet" }
+		{ count: 16, item: "farmersdelight:warped_cabinet" }
+	]
+	title: "cabinet choice"
+}

@@ -1,13 +1,7 @@
-name = "Maps of the Unknown"
+name = "bettermaps"
 filename = "bettermaps-mc1.19-0.4.jar"
-side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JX1fvBwM/versions/6yqz1sn0/bettermaps-mc1.19-0.4.jar"
-hash-format = "sha1"
-hash = "e1f75578479e0f5f78e72749ab59dd8c5698a092"
-
-[update]
-[update.modrinth]
-mod-id = "JX1fvBwM"
-version = "6yqz1sn0"
+url = "https://sombrae.github.io/FantastiCreate/bettermaps-mc1.19-0.4.jar"
+hash-format = "sha256"
+hash = "afefb76939beaf1fa7306858ac8662801fe91a153e1b37cc5ecdb781450ecde5"

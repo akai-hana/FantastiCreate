@@ -5,4 +5,3 @@ wireSectionsPerMeter = 10
 #...wire thickness...
 #Range: 0.0 ~ 1.7976931348623157E308
 wireThickness = 0.03
-

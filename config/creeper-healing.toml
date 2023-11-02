@@ -1,0 +1,48 @@
+#Choose between different special modes for explosion healing.
+[explosion_healing_mode]
+	#(Default = "default_mode") Select between any of the following healing modes by copying the string (the text enclosed by the double quotes along with the double quotes)
+	#and pasting it into the value of the "mode" setting below:
+	#["default_mode", "daytime_healing_mode", "difficulty_based_healing_mode", "blast_resistance_based_healing_mode"] 
+	mode = "default_mode"
+#Configure which explosions are allowed to heal.
+[explosion_sources]
+	#(Default = true) Heal explosions caused by creepers.
+	heal_creeper_explosions = true
+	#(Default = false) Heal explosions caused by ghasts.
+	heal_ghast_explosions = false
+	#(Default = false) Heal explosions caused by withers.
+	heal_wither_explosions = false
+	#(Default = false) Heal explosions caused by TNT blocks.
+	heal_tnt_explosions = false
+	#(Default = false) Heal explosions caused by TNT minecarts.
+	heal_tnt_minecart_explosions = false
+#Configure the delays related to the healing of explosions.
+[delays]
+	#(Default = 3) Change the delay in seconds between each explosion and its corresponding healing process.
+	explosion_heal_delay = 3.0
+	#(Default = 1) Change the delay in seconds between each block placement during the explosion healing process.
+	block_placement_delay = 1.0
+#Toggleable settings to customize the healing of explosions.
+[preferences]
+	#(Default = true) Whether or not blocks should be healed where there is currently flowing water.
+	heal_on_flowing_water = true
+	#(Default = true) Whether or not blocks should be healed where there is currently flowing lava.
+	heal_on_flowing_lava = true
+	#(Default = true) Whether or not a block heal should play a sound effect.
+	block_placement_sound_effect = true
+	#(Default = true) Whether or not explosions should drop items.
+	drop_items_on_explosions = true
+	#(Default = true) Makes explosion heal immediately upon throwing a splash potion of Healing on them.
+	heal_on_healing_potion_splash = true
+	#(Default = true) Makes explosion start their healing process upon throwing a splash potion of Regeneration of them.
+	#This option only modifies the heal delay of the explosion and only affects explosions created with the default healing mode.
+	heal_on_regeneration_potion_splash = true
+#Add your own replace settings to configure which blocks should be used to heal other blocks. The block on the right will be used to heal the block on the left.
+#Specify the block's namespace along with the block's name identifier, separated by a colon.
+#Example entry:
+#"minecraft:gold_block" = "minecraft:stone"
+#Warning, the same key cannot appear more than once in the replace map! For example, the following will cause an error:
+#"minecraft:diamond_block" = "minecraft:stone"
+#"minecraft:diamond_block" = "minecraft:air" 
+[replace_map]
+	"minecraft:diamond_block" = "minecraft:stone"

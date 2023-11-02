@@ -1,4 +1,3 @@
-
 #.
 #Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
 [client]
@@ -39,7 +38,6 @@
 		#Smoke texture quality
 		#Allowed Values: LOW, MEDIUM, HIGH, ULTRA
 		smokeQuality = "HIGH"
-
 	#.
 	#Journeymap Settings
 	[client.journeymap]
@@ -53,4 +51,3 @@
 		#Journeymap train overlay old marker removal check time
 		#Range: 10 ~ 1200
 		removeObsoleteRate = 200
-

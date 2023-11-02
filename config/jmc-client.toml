@@ -1,7 +1,5 @@
-
 #Particle effects emitted from cakes
 ["Cake particles"]
 	enderCakeParticles = true
 	redstoneCakeParticles = true
 	lavaCakeParticles = false
-

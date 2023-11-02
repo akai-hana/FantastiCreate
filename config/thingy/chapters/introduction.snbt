@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	id: "4DD319D4F149B640"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to FantastiCreate!"
+				""
+				"Here I am, sitting on a bench, watching the sun set while writing a quest book. How relaxing."
+				""
+				""
+				"{image:#FFFFFF width:192 height:108 align:1 fit:true}"
+				""
+				"In here, I will guide you through all that this modpack has to offer, from tips and tricks to survive, to rewarded quests to provide a questline for the most interesting mods."
+				""
+				"To celebrate it, have a beer! (or some aloe vera juice, if you're underage.)"
+			]
+			hide_dependency_lines: false
+			id: "4A705CD78B0CDA6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C1F90A70C70B103"
+				table_id: 1537983043917597454L
+				type: "choice"
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "02A792E9013FC925"
+				title: "Welcome to FantastiCreate!"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A705CD78B0CDA6F"]
+			description: [
+				"when you are offered a free item, you will always have a choice of declining it."
+				"ignore the diamond icon sr mopswrilfkmgpwr"
+			]
+			icon: "minecraft:diamond"
+			id: "67D0032521D7E9FA"
+			tasks: [{
+				id: "49DDF8C3E909D4D6"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	title: "Introduction"
+}

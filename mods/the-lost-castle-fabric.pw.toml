@@ -1,0 +1,13 @@
+name = "The Lost Castle [Fabric]"
+filename = "fabric-the-lost-castle-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "80995f0fcabefa20c70ba38af4712baafb7431da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4024852
+project-id = 687497

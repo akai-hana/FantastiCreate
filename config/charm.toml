@@ -211,7 +211,6 @@
 	"Map scale" = 0
 	#If true, sets a keybind for swapping the item in your main hand with the first available atlas in your inventory (defaults to 'r').
 	"Enable keybind" = true
-
 [BatBuckets]
 	#Number of seconds that entities will receive the glowing effect.
 	"Glowing time" = 10
@@ -219,7 +218,6 @@
 	"Viewing range" = 24
 	#If true, the bat will take half a heart of damage when released from the bucket.
 	"Damage bat" = true
-
 [BlockOfEnderPearls]
 	#A chorus fruit will teleport you to an ender pearl block within this range (in blocks).
 	"Chorus teleport range" = 16
@@ -227,15 +225,12 @@
 	"Chorus fruit teleport" = true
 	#If true, a silverfish has a chance to be converted into an endermite when it is next to an ender pearl block.
 	"Convert silverfish to endermite" = true
-
 [Bookcases]
 	#Items that may be placed in bookcases.
 	"Valid items" = ["minecraft:book", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:writable_book", "minecraft:knowledge_book", "minecraft:paper", "minecraft:map", "minecraft:filled_map"]
-
 [CaveSpidersDropCobwebs]
 	#Maximum cobwebs dropped when cave spider is killed.
 	"Maximum drops" = 2
-
 [CompassOverlay]
 	#If true, shows the cardinal direction that the player is facing.
 	Facing = true
@@ -247,13 +242,11 @@
 	"Only show X and Z" = false
 	#If true, only show the compass overlay if the player is sneaking.
 	"Show when sneaking" = false
-
 [CoralSquids]
 	#Chance (out of 1.0) of a coral squid dropping coral when killed by the player.
 	"Drop chance" = 0.2
 	#Chance of coral squids spawning in warm ocean biomes.
 	"Spawn weight" = 50
-
 [Core]
 	#If true, routes additional debug messages into the standard game log.
 	"Debug mode" = false
@@ -261,11 +254,9 @@
 	Advancements = true
 	#If true, allows anvil recipes that do not require any XP cost.
 	"Allow zero cost anvil recipes" = true
-
 [EndermitePowder]
 	#Maximum endermite powder dropped when endermite is killed.
 	"Maximum drops" = 2
-
 [ExtraRecipes]
 	#If true, adds a blast furnace recipe for smelting raw ore blocks into ore blocks.
 	"Ore block from raw ore block" = true
@@ -291,7 +282,6 @@
 	"Shapeless paper" = true
 	#If true, adds a recipe for crafting bundles from leather.
 	"Bundle from leather" = true
-
 [ExtraTrades]
 	#If true, librarians will buy any enchanted book in return for emeralds.
 	"Enchanted books" = true
@@ -303,7 +293,6 @@
 	"Beef for rotten flesh" = true
 	#If true, leatherworkers will sell bundles in return for emeralds.
 	Bundles = true
-
 [ExtractEnchantments]
 	#Initial cost (in xp levels) of extraction before adding on the cost of the enchantment(s).
 	"Initial cost" = 5
@@ -311,19 +300,15 @@
 	"Treasure cost" = 5
 	#If true, the item's repair cost will be added to the cost of extraction.
 	"Add item repair cost" = true
-
 [GentlePotionParticles]
 	#If true, translucent particles will be rendered.  If false, no particles will be rendered.
 	"Translucent particles" = true
-
 [GoatsDropMutton]
 	#Maximum pieces of mutton dropped when goat is killed.
 	"Maximum drops" = 2
-
 [HusksDropSand]
 	#Maximum sand dropped when husk is killed.
 	"Maximum drops" = 2
-
 [ImprovedMineshafts]
 	#Chance (out of 1.0) of blocks such as candles and ores spawning on the floor of corridors.
 	"Corridor floor blocks" = 0.03
@@ -337,60 +322,48 @@
 	"Extra minecarts" = 0.2
 	#If 'Add minecarts' is enabled, minecarts have a chance to be filled with loot from these loot tables.
 	"Minecart loot tables" = ["chests/simple_dungeon", "chests/abandoned_mineshaft", "chests/village/village_temple", "chests/village/village_cartographer", "chests/village/village_mason", "chests/village/village_toolsmith", "chests/village/village_weaponsmith"]
-
 [NoCropTrampling]
 	#If true, a player or mob will trample crops unless wearing boots with feather falling enchantment.
 	"Require feather falling" = false
-
 [PortableCrafting]
 	#If true, sets a keybind for opening the portable crafting table (defaults to 'v').
 	"Enable keybind" = true
-
 [QuickReplant]
 	#List of blockstate definitions for replantable crops.
 	"Replantable blockstates" = ["minecraft:beetroots[age=3]", "minecraft:carrots[age=7]", "minecraft:nether_wart[age=3]", "minecraft:potatoes[age=7]", "minecraft:wheat[age=7]"]
-
 [RaidHorns]
 	#Chance (out of 1.0) of a patrol captain dropping a raid horn when killed by the player.
 	"Drop chance" = 0.05
 	#Volume of the raid horn sound effect when used.  1.0 is maximum volume.
 	Volume = 0.75
-
 [RepairElytraFromLeather]
 	#If true, leather can be used to repair elytra even when insomnia is disasbled.
 	"Allow when insomnia enabled" = false
-
 [RepairNetheriteFromScrap]
 	#Number of levels required to restore durability.
 	"XP cost" = 1
 	#List of items repairable using netherite scrap.
 	"Repairable items" = ["netherite_hoe", "netherite_shovel", "netherite_axe", "netherite_pickaxe", "netherite_sword", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots"]
-
 [SnowAccumulation]
 	#If true, placing a block on a non-full snow block will replace the snow block.
 	#If false, use vanilla behavior (only a snow block with a single layer will allow block replacement).
 	"Allow block replace" = true
 	#Chance (out of 1.0) of a fully accumulated snow block being converted to powder snow.
 	"Powder snow chance" = 0.01
-
 [StackableEnchantedBooks]
 	#Maximum enchanted book stack size.
 	"Stack size" = 16
-
 [StackablePotions]
 	#Maximum potion stack size.
 	"Stack size" = 16
-
 [StackableStews]
 	#Maximum stew stack size.
 	"Stack size" = 16
 	#Also apply to suspicious stew.
 	"Enable suspicious stew" = false
-
 [StraysDropBlueIce]
 	#Maximum blue ice dropped when stray is killed.
 	"Maximum drops" = 2
-
 [TotemOfPreserving]
 	#If true, a new totem will be spawned to preserve items upon dying.
 	#Players do NOT need to be holding a Totem of Preserving.
@@ -407,7 +380,6 @@
 	"Preserve XP" = false
 	#If true, the coordinates where you died will be added to the player's chat screen.
 	"Show death position" = false
-
 [VariantMobTextures]
 	#If true, cows may spawn with different textures.
 	"Variant cows" = true
@@ -433,7 +405,6 @@
 	"Rare variants" = true
 	#Approximately 1 in X chance of a mob spawning as a rare variant.
 	"Rarity of rare variants" = 1000
-
 [WeatheringIron]
 	#The chance of weathering increases according to the number of block faces touching water.
 	"Faces increase weathering" = true
@@ -443,8 +414,6 @@
 	"Weathering chance" = 0.006
 	#When a block is above a bubble column, weathering chance is multiplied by this value.
 	"Bubble column chance multiplier" = 4.0
-
 [WitchesDropLuck]
 	#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.
 	"Drop chance" = 0.05
-

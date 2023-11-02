@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: ""
+	id: "3F2647C4C48DB015"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F5C5846D39212D9"
+			size: 2.5d
+			subtitle: "Entering The Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "22FE9D2EC1A06775"
+				type: "dimension"
+			}]
+			title: "The Nether"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Magma blocks, blazes and all sorts of new Nether mobs will eventually set you on fire, and this can last for up to minutes. Due to this, I'll offer you a free fire potion. You can accept it or decline it, as always."
+				""
+				"Also, you can eat raw magma cream for a quick fire resistance, but it doesn't last more than a couple seconds."
+			]
+			id: "6CDD0D04F6FFC223"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB386A3B5929CC7"
+				table_id: 1221960122563087330L
+				type: "choice"
+			}]
+			subtitle: "(Ow ouch it stings)"
+			tasks: [{
+				id: "084E253B9456FB85"
+				type: "checkmark"
+			}]
+			title: "Humans are flammable!"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["732D41433D99D77C"]
+			description: ["Since this modpack rebalances difficulty, potions are now basically a requirement to improve survivability rates. Remember to brew "]
+			id: "5B34CE64A06EF37B"
+			subtitle: "Ready to brew!"
+			tasks: [
+				{
+					id: "6451095438D4B3D7"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "7DE515E0DD7F1679"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "791958714B96F9C8"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "The Alchemist"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1440621BFB5172C7"]
+			id: "0F833B617ED5A6A5"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "(they are not friendly)"
+			tasks: [{
+				id: "4C5E9C06E072E3A9"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "local residents"
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0F833B617ED5A6A5"]
+			description: ["using &lwither skeleton skull&r you can craft the most powerfull boss of vanilla minecraft, the Wither. For killing the Wither you will get &lnether star&r which you can use to craft beacon to buff you with choosen effect while standing near it."]
+			icon: "minecraft:nether_star"
+			id: "21116AD7F6F38E2C"
+			rewards: [{
+				id: "48AF6DA8BE02FFA9"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.8d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "2105C716D5F2E543"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4B36AF88D1E0FD73"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "kill wither"
+			x: -1.7999999999999998d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1440621BFB5172C7"]
+			icon: "minecraft:blaze_rod"
+			id: "732D41433D99D77C"
+			tasks: [
+				{
+					id: "1D139521192669F3"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					entity: "minecraft:blaze"
+					id: "1E56388FEDB8A689"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "hot stuff"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:nether_bricks"
+			id: "1440621BFB5172C7"
+			subtitle: "Where am i?"
+			tasks: [{
+				id: "6860090EB0CDF559"
+				structure: "#repurposed_structures:explorer_maps/nether_fortress"
+				type: "structure"
+			}]
+			title: "forbidden place"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["732D41433D99D77C"]
+			icon: "minecraft:end_portal_frame"
+			id: "6D45C952C346189F"
+			subtitle: "flying islands in the middle of nothing"
+			tasks: [
+				{
+					id: "27138060A699FD09"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "760CD4E1E890D1E0"
+					ignore_dimension: false
+					position: [I;
+						0
+						0
+						0
+					]
+					size: [I;
+						1
+						1
+						1
+					]
+					type: "location"
+				}
+			]
+			title: "end game"
+			x: -3.5d
+			y: 5.5d
+		}
+	]
+	title: "Nether"
+}

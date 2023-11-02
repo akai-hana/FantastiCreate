@@ -1,0 +1,10 @@
+{
+	id: "1558036E0B484B0E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "clutter:beer_mug" }
+		{ item: "byg:aloe_vera_juice" }
+	]
+	title: "Celebration drinks"
+}

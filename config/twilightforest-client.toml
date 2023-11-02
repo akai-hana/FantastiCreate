@@ -12,4 +12,3 @@ disableOptifineNagScreen = false
 disableLockedBiomeToasts = false
 #Renders a little check mark or x above your crosshair depending on if fed the Quest Ram that color of wool. Turn this off if you find it intrusive.
 questRamWoolIndicator = true
-

@@ -1,0 +1,10 @@
+{
+	id: "5DF858563603E91C"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "frozenup:mug_of_milk" }
+		{ }
+	]
+	title: "melk"
+}
