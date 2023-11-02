@@ -3337,6 +3337,10 @@ file = "fantasticreate-v5.0-title.png"
 hash = "3fd1c7306dec11dc60ff4661178da8ff83aff9639cea24a2a53b61e8f8c0585b"
 
 [[files]]
+file = "fantasticreate.html"
+hash = "5f37baa2d55c740d8bcc3eb13417ce3dfd7e9ae36a9582b2b5c7d0e143ae4625"
+
+[[files]]
 file = "ftb-library-fabric-1902.4.0-build.232.jar"
 hash = "5c604e0a1e77557bb61ba0e35ed00c58d88002ab5084cdc591175ce00eb82223"
 
@@ -17260,8 +17264,28 @@ hash = "3ceaa011b0a783f29742b8ccb24b361fae3b7170bb65e389985c98cff60f948c"
 metafile = true
 
 [[files]]
+file = "mods/ae2drive.pw.toml"
+hash = "db93c752fd0d48fb11cd9d83fbb1b4ff7fa5ca13b8515971cd14dc1d622c20c2"
+metafile = true
+
+[[files]]
+file = "mods/ae2energyacceptorponder.pw.toml"
+hash = "b38c2f8ceed96e571904f9f324ffcfa8540191d3aa141ac712f7b19d04150f87"
+metafile = true
+
+[[files]]
 file = "mods/ae2qolrecipes-fabric-1.18.2-1.20.x-1.1.1.jar"
 hash = "4377b31c55317ffd5406ef5bcfa62f3a5c2adc00b29d9262ba1ade488167a31a"
+
+[[files]]
+file = "mods/ae2recipes.pw.toml"
+hash = "7edbba07aa31ffbdca80842b9ff0a7351b459a73ca6f989840dad63e354e5765"
+metafile = true
+
+[[files]]
+file = "mods/ae2tag.pw.toml"
+hash = "a70a883815cd5af442870bcf9c0715239160738075145ac2009cd81ee92f99aa"
+metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
@@ -17669,6 +17693,11 @@ metafile = true
 [[files]]
 file = "mods/bygone-nether-fabric.pw.toml"
 hash = "f35c7b187396677219e2aa84b76e408fa70a734f7048a6c1b8af8cf900589a09"
+metafile = true
+
+[[files]]
+file = "mods/cake.pw.toml"
+hash = "aa47d248e9f5e2e95c25b6b06ddcae86ee6b90f8648d5e0dc6d84f3359492368"
 metafile = true
 
 [[files]]

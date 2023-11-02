@@ -1,0 +1,7 @@
+name = "ae2recipes"
+filename = "ae2_recipes.js"
+
+[download]
+url = "https://sombrae.github.io/FantastiCreate/ae2_recipes.js"
+hash-format = "sha256"
+hash = "ab6184f748932868075200daeb6346c26c762099d95d417e4fda659901f0f885"

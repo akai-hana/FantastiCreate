@@ -1,0 +1,7 @@
+name = "ae2energyacceptorponder"
+filename = "ae2_energy_acceptor.js"
+
+[download]
+url = "https://sombrae.github.io/FantastiCreate/ae2_energy_acceptor.js"
+hash-format = "sha256"
+hash = "cf13e35e73164ff0bdf8db678d50e3a3516432a1a47cd095eac293b1cb68c117"

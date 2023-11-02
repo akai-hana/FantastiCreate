@@ -1,0 +1,7 @@
+name = "ae2drive"
+filename = "ae2_drive.js"
+
+[download]
+url = "https://sombrae.github.io/FantastiCreate/ae2_drive.js"
+hash-format = "sha256"
+hash = "1cde29a03fd18cc5a6d12b10355f25e67994f076ae75fbd0baca4f413c5c082b"

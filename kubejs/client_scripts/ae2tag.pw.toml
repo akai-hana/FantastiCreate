@@ -1,0 +1,7 @@
+name = "ae2tag"
+filename = "ae2_tag.js"
+
+[download]
+url = "https://sombrae.github.io/FantastiCreate/ae2_tag.js"
+hash-format = "sha256"
+hash = "aa3c8f7a352d72e5ef1595ba6fe4ae7f774d1ccb6342ddd479b3dc102c76863c"

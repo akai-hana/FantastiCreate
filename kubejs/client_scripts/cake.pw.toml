@@ -1,0 +1,7 @@
+name = "cake"
+filename = "cake.js"
+
+[download]
+url = "https://sombrae.github.io/FantastiCreate/cake.js"
+hash-format = "sha256"
+hash = "5e04d1724927841cf43e79421ee633d47d92f6acaaf35bfaee20ee95d0e2ce44"
