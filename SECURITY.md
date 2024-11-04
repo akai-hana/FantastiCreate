@@ -3,7 +3,7 @@
 ## Supported Versions
 | Version       | Supported          |
 | -------       | ------------------ |
-| 0.1.x(Beta)   | :white_check_mark: |
+| All versions   | ❎ |
 
 ## Reporting a Vulnerability
 For any critical vulnerabilities you find within the modpack you can dm akai_hana or talk with the dev team on the official discord: https://discord.gg/4fK3YpDygd
